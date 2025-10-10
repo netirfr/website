@@ -1,0 +1,181 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  background: radial-gradient(
+      ellipse 50% 50% at 50% 50%,
+      #7ec0f9f2 0%,
+      #56b9ff00 100%
+    )
+    0% 0% / 100% 100% repeat padding-box padding-box;
+  position: relative;
+  padding: 50px;
+}
+@media (max-width: 1200px) {
+  .root {
+    background: radial-gradient(
+        ellipse 50% 50% at 50% 50%,
+        #7ec0f952 0%,
+        #56b9ff00 100%
+      )
+      0% 0% / 100% 100% repeat padding-box padding-box;
+  }
+}
+.rootentreprise {
+  background: radial-gradient(
+      ellipse 50% 50% at 50% 50%,
+      #63d0a2b5 0%,
+      #56b9ff00 100%
+    )
+    0% 0% / 100% 100% repeat padding-box padding-box;
+}
+@media (max-width: 1200px) {
+  .rootentreprise {
+    background: radial-gradient(
+        ellipse 50% 50% at 50% 50%,
+        #63d0a252 0%,
+        #56b9ff00 100%
+      )
+      0% 0% / 100% 100% repeat padding-box padding-box;
+  }
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .rootentreprise {
+    background: radial-gradient(
+        ellipse 50% 50% at 50% 50%,
+        #63d0a252 0%,
+        #56b9ff00 100%
+      )
+      0% 0% / 100% 100% repeat padding-box padding-box;
+  }
+}
+.rootfreelance {
+  background: radial-gradient(
+      ellipse 50% 50% at 50% 50%,
+      #c4b5fdeb 0%,
+      #56b9ff00 100%
+    )
+    0% 0% / 100% 100% repeat padding-box padding-box;
+}
+@media (max-width: 1200px) {
+  .rootfreelance {
+    background: radial-gradient(
+        ellipse 50% 50% at 50% 50%,
+        #c4b5fd52 0%,
+        #56b9ff00 100%
+      )
+      0% 0% / 100% 100% repeat padding-box padding-box;
+  }
+}
+.rootapporteurDaffaire {
+  background: radial-gradient(
+      ellipse 50% 50% at 50% 50%,
+      #ffce4fb5 0%,
+      #56b9ff00 100%
+    )
+    0% 0% / 100% 100% repeat padding-box padding-box;
+}
+@media (max-width: 1200px) {
+  .rootapporteurDaffaire {
+    background: radial-gradient(
+        ellipse 50% 50% at 50% 50%,
+        #ffce4f52 0%,
+        #56b9ff00 100%
+      )
+      0% 0% / 100% 100% repeat padding-box padding-box;
+  }
+}
+.img__hgPEv {
+  object-fit: cover;
+  width: 180px;
+  box-shadow: none;
+  height: 180px;
+  flex-shrink: 0;
+}
+.img__hgPEv > picture > img {
+  object-fit: cover;
+}
+.plop:global(.__wab_instance) {
+  position: relative;
+  height: 30px;
+  flex-shrink: 0;
+  display: none;
+}
+.text {
+  position: absolute;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  background: var(--token-bTfc8s3xNwDj);
+  box-shadow:
+    0px 0px 6px 4px #c9e5fd8a,
+    0px 3px 9px 0px var(--token--hnTNNj6hawp);
+  left: 31px;
+  top: auto;
+  right: 31px;
+  bottom: 42px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 12px;
+  padding: 5px;
+  border-width: 1px;
+  border-style: none;
+}
+@media (max-width: 1200px) {
+  .text {
+    font-size: 10px;
+  }
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .text {
+    font-size: 8px;
+    box-shadow: 0px 3px 9px 0px var(--token--hnTNNj6hawp);
+    left: 23px;
+    right: 23px;
+  }
+}
+@media (max-width: 1200px) {
+  .textentreprise {
+    font-size: 10px;
+  }
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .textentreprise {
+    font-size: 8px;
+    box-shadow: 0px 3px 9px 0px var(--token--hnTNNj6hawp);
+  }
+}
+.textfreelance {
+  padding: 7px;
+}
+@media (max-width: 1200px) {
+  .textfreelance {
+    font-size: 12px;
+  }
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .textfreelance {
+    font-size: 8px;
+    height: auto;
+  }
+}
+.textapporteurDaffaire {
+  left: 27px;
+  right: 27px;
+}
+@media (max-width: 1200px) {
+  .textapporteurDaffaire {
+    font-size: 12px;
+  }
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .textapporteurDaffaire {
+    font-size: 8px;
+    left: 11px;
+    right: 11px;
+  }
+}

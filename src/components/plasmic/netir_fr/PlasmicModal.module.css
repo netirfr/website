@@ -1,0 +1,119 @@
+.ariaDialogTrigger:global(.__wab_instance) {
+  position: relative;
+}
+.svg__ePyZo {
+  position: relative;
+  height: 1em;
+}
+.svg__gaVaf {
+  position: relative;
+  height: 1em;
+}
+.freeBox__oPWsT {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background: none;
+  padding-right: 0px;
+  border-radius: var(--token-EwyLdwq4MGkT);
+}
+.ariaModal:global(.__wab_instance) {
+  background: var(--token-YxZLddY0xCBI);
+  display: block;
+  color: var(--token-MsrkwOKj2ojd);
+  font-family: var(--token-7MuUh4QWacRT);
+  font-size: var(--token-zxWRYI7ilEvM);
+  line-height: var(--token-mw5ptfsQpuop);
+  outline-style: none;
+  box-shadow: 0px 24px 48px -12px #00000040;
+  border-radius: var(--token-kSHqX-O7e5gB);
+}
+.pcls_8TvJ2KarPNh4 {
+  background: var(--token--hnTNNj6hawp);
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  outline: none;
+}
+.ariaDialog:global(.__wab_instance) {
+  max-width: 90vw;
+  object-fit: cover;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  outline-style: none;
+}
+.h3__pR0X {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-weight: 700;
+  font-size: var(--token-As0B5uawCa2n);
+  min-width: 0;
+  padding: var(--token-vd811_nvNdLg);
+}
+.scrollableContent {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  overflow: auto;
+  padding-left: var(--token-vd811_nvNdLg);
+  padding-right: var(--token-vd811_nvNdLg);
+}
+.freeBox__flFeu {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: var(--token--MfSCwkudlyf);
+}
+.text__xwLM {
+  position: relative;
+}
+.freeBox___6BdUi {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  min-width: 0;
+  padding: var(--token-vd811_nvNdLg);
+}
+.svg__yPgWh {
+  position: relative;
+  height: 1em;
+}
+.text___9Tjen {
+  padding-left: 0px;
+}
+.svg__kIW3 {
+  position: relative;
+  height: 1em;
+}
+.freeBox___90BK6 {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background: none;
+  padding-right: 0px;
+  border-radius: var(--token-EwyLdwq4MGkT);
+}

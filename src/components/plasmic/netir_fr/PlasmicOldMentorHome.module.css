@@ -1,0 +1,227 @@
+.root {
+  display: grid;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-content: flex-start;
+  justify-items: center;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+}
+.root > * {
+  grid-column: 4;
+}
+@media (max-width: 1200px) {
+  .root > * {
+    grid-column: 4;
+  }
+}
+.freeBox__sq3K9 {
+  flex-direction: row;
+  position: sticky;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  background: var(--token-YxZLddY0xCBI);
+  box-shadow: 0px 4px 16px 0px var(--token--hnTNNj6hawp);
+  left: 0px;
+  top: 0px;
+  z-index: 40;
+  grid-column-start: 1 !important;
+  grid-column-end: -1 !important;
+  display: none;
+  padding: 1rem 1.5rem;
+}
+@media (max-width: 1200px) {
+  .freeBox__sq3K9 {
+    display: flex;
+  }
+}
+.svg {
+  object-fit: cover;
+  max-width: 100%;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.dashboardLayout:global(.__wab_instance) {
+  max-width: 100%;
+  width: 100%;
+  grid-column-start: 1 !important;
+  grid-column-end: -1 !important;
+}
+.navNavItem__w6Y7E:global(.__wab_instance) {
+  position: relative;
+  margin-top: 0px;
+}
+.svg__pd48J {
+  object-fit: cover;
+  max-width: 100%;
+  width: 27px;
+  height: 25px;
+  align-self: auto;
+}
+.menuItem__cUclZ:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.text___8R96J {
+  position: absolute;
+  width: 247px;
+  height: auto;
+  max-width: 100%;
+  text-align: left;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  bottom: 0;
+  padding-left: 10px;
+  font-size: 0.875rem;
+}
+.navNavItem__yRu7:global(.__wab_instance) {
+  position: relative;
+  margin-top: 0px;
+}
+.svg__ahC9H {
+  object-fit: cover;
+  max-width: 100%;
+  width: 27px;
+  height: 25px;
+  align-self: auto;
+}
+.menuItem__kSoh:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.text__vOI1 {
+  position: absolute;
+  width: 247px;
+  height: auto;
+  max-width: 100%;
+  text-align: left;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  bottom: 0;
+  padding-left: 10px;
+  font-size: 0.875rem;
+}
+.text__qopI8 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: 7%;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #a1a1aa;
+  line-height: 1.5rem;
+  letter-spacing: -0.025em;
+  min-width: 0;
+}
+.freeBox___6Xs5H {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 1112px;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.text__nBiuz {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1;
+  letter-spacing: -0.025em;
+  font-weight: 800;
+  color: var(--token-lDLmFdvCjYex);
+  min-width: 0;
+}
+.text__eo52 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  min-width: 0;
+}
+.text__g6MeO {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  letter-spacing: -0.025em;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: var(--token-lDLmFdvCjYex);
+  margin-bottom: 13px;
+  min-width: 0;
+}
+.text__qvzxn {
+  position: relative;
+  width: 444px;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-top: 0.25rem;
+}
+.freeBox__akDEn {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-top: 19px;
+}
+.button__vrSl:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  align-self: center;
+  background: #f43f5e;
+  margin-top: 0;
+  width: 413px;
+  height: 41px;
+  flex-shrink: 0;
+}
+.text__tS4Vq {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-weight: 600;
+  font-size: 14px;
+  align-self: center;
+  text-align: center;
+  min-width: 0;
+}

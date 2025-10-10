@@ -1,0 +1,54 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.2s;
+  min-width: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.2s;
+}
+@media (max-width: 1200px) {
+  .root {
+    height: auto;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.root:hover {
+  background: #f9fafb;
+  border-radius: 12px;
+}
+.freeBox {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+}
+@media (max-width: 1200px) {
+  .freeBox {
+    cursor: pointer;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+}
+.slotTargetChildren {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827;
+  line-height: 1.75rem;
+}

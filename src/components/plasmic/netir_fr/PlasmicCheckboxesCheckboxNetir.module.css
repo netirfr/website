@@ -1,0 +1,53 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 16px;
+  height: 16px;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.25s;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.25s;
+  border-radius: 5px;
+  border: 1px solid #0000005c;
+}
+.rootisChecked {
+  background: var(--token-9HNAvI0pqHnB);
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  outline-style: solid;
+  outline-color: var(--token-9HNAvI0pqHnB);
+  outline-offset: 2px;
+  outline-width: 2px;
+  border-style: none;
+}
+.svg__uhUOm {
+  object-fit: cover;
+  max-width: 100%;
+  color: var(--token-bTfc8s3xNwDj);
+  align-self: center;
+  height: 1em;
+  flex-shrink: 0;
+  display: none;
+}
+.svgisChecked__uhUOmensxW {
+  display: block;
+}
+.svg__dEal4 {
+  object-fit: cover;
+  max-width: 100%;
+  color: var(--token-YxZLddY0xCBI);
+  outline-color: var(--token-9HNAvI0pqHnB);
+  outline-style: solid;
+  outline-offset: 2px;
+  outline-width: 2px;
+  height: 1em;
+  flex-shrink: 0;
+  display: none;
+  border-radius: 5px;
+}

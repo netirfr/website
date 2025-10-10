@@ -1,0 +1,33 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 9rem;
+  height: 9rem;
+  max-width: 100%;
+  background: #f9fafb;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.15s;
+  border-radius: 9999px;
+  padding: 8px;
+  border: 2px dashed #e5e7eb;
+}
+.root:hover {
+  background: #f3f4f6;
+}
+.svg {
+  object-fit: cover;
+  max-width: 100%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  color: #53535373;
+  flex-shrink: 0;
+}

@@ -1,0 +1,133 @@
+.root {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: stretch;
+  flex-shrink: 1;
+  max-width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-bottom: 0px;
+  position: relative;
+  column-gap: 16px;
+  min-width: 0;
+  --plsmc-rc-col-gap: 16px;
+}
+.root > :nth-child(2n + 1) {
+  width: calc((100% - 1 * var(--plsmc-rc-col-gap, 0px)) * 3 / 12);
+}
+.root > :nth-child(2n + 2) {
+  width: calc((100% - 1 * var(--plsmc-rc-col-gap, 0px)) * 9 / 12);
+}
+.column__cSt4S {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+  align-items: flex-end;
+  row-gap: 0px;
+  min-width: 0;
+  padding: 0px;
+}
+.iconStep {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: var(--token-9HNAvI0pqHnB);
+  box-shadow: none;
+  outline-width: thin;
+  outline-color: #ff0000;
+  outline-offset: 3px;
+  outline-style: solid;
+  flex-shrink: 0;
+  border-radius: 50%;
+  padding: 4px;
+}
+.svg__cnJiv {
+  object-fit: cover;
+  max-width: 158%;
+  width: 24px;
+  height: 25px;
+  color: var(--token-bTfc8s3xNwDj);
+  align-self: center;
+  flex-shrink: 0;
+}
+@media (max-width: 1200px) {
+  .svg__cnJiv {
+    width: auto;
+  }
+}
+.svg__hgxTq {
+  object-fit: cover;
+  max-width: 100%;
+  width: 43px;
+  height: 63px;
+  align-self: flex-end;
+  position: relative;
+  left: auto;
+  top: auto;
+  z-index: 1;
+  color: #9ca3af;
+  flex-shrink: 0;
+}
+.column__fi6JX {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+}
+.informations {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+}
+.freeBox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+}
+.text__sHtff {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  color: #9ca3afc9;
+  font-size: 0.875rem;
+  min-width: 0;
+}
+.text___39Wa1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #6b7280;
+  line-height: 1.25rem;
+  min-width: 0;
+}

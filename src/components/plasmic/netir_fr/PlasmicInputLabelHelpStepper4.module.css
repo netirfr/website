@@ -1,0 +1,10 @@
+.root {
+  max-width: 631px;
+  width: 100%;
+  font-size: 0.75rem;
+  font-weight: 100;
+  color: #9ca3c1;
+  line-height: 1rem;
+  position: relative;
+  min-width: 0;
+}

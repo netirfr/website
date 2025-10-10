@@ -1,0 +1,129 @@
+.root {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: stretch;
+  flex-shrink: 1;
+  max-width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+  column-gap: 16px;
+  min-width: 0;
+  --plsmc-rc-col-gap: 16px;
+}
+.root > :nth-child(2n + 1) {
+  width: calc((100% - 1 * var(--plsmc-rc-col-gap, 0px)) * 3 / 12);
+}
+.root > :nth-child(2n + 2) {
+  width: calc((100% - 1 * var(--plsmc-rc-col-gap, 0px)) * 9 / 12);
+}
+.column__whagO {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+  align-items: flex-end;
+  row-gap: 0px;
+  min-width: 0;
+  padding: 0px;
+}
+.iconStep3 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+  box-shadow: 0px 0px 0px 2px #ffffff9e;
+  outline-width: thin;
+  outline-offset: 3px;
+  outline-style: solid;
+  outline-color: #cdcaca;
+  flex-shrink: 0;
+  border-radius: 50%;
+  padding: 4px;
+}
+.svg__dSsKj {
+  object-fit: cover;
+  max-width: 158%;
+  width: 24px;
+  height: 25px;
+  color: #d1d5db;
+  align-self: center;
+  flex-shrink: 0;
+}
+.svg__mcMgj {
+  object-fit: cover;
+  max-width: 100%;
+  width: 43px;
+  height: 63px;
+  align-self: flex-end;
+  position: relative;
+  left: auto;
+  top: auto;
+  z-index: 1;
+  color: #9ca3af;
+  flex-shrink: 0;
+}
+.column__oz8Nz {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+}
+.informations3 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+}
+.freeBox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+}
+.text__av9TX {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  color: #9ca3afc9;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.25rem;
+  min-width: 0;
+}
+.text__raBfP {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #6b7280;
+  min-width: 0;
+}

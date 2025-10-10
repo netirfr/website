@@ -1,0 +1,40 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  min-width: 0;
+}
+.freeBox__evhNi {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  align-self: center;
+  min-width: 0;
+}
+.svg__ksaDb {
+  object-fit: cover;
+  max-width: 100%;
+  width: 38px;
+  height: 34px;
+  flex-shrink: 0;
+}
+.freeBox__utINn {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  align-self: center;
+  padding-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}

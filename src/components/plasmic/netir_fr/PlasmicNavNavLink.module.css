@@ -1,0 +1,44 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+  height: 25px;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.link {
+  display: block;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: var(--token-vrCguEeJMp-0);
+  height: auto;
+  margin-bottom: 3px;
+  padding-bottom: 0px;
+}
+.freeBox {
+  flex-direction: column;
+  position: relative;
+  width: 20px;
+  height: 3px;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  background: var(--token-9HNAvI0pqHnB);
+  align-self: flex-end;
+  transform: translateX(0px) translateY(0px) translateZ(0px);
+  transition-property: all;
+  transition-duration: 0.3s;
+  flex-shrink: 0;
+  display: none;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  border-radius: 6px;
+}
+.root:hover .freeBox {
+  display: flex;
+}

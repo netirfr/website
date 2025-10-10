@@ -1,0 +1,121 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.3s;
+  justify-self: flex-start;
+  background: url("./images/fondVagueRemovebgPreviewPng.png") top 60% left 50% / 100% 200% repeat;
+  row-gap: 20px;
+  min-height: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+}
+.image3Etapes {
+  object-fit: cover;
+  max-width: 100%;
+  height: 252px;
+  width: 601px;
+  object-position: 0px -37px;
+  flex-shrink: 0;
+  display: none;
+  border-radius: 12px;
+}
+.image3Etapes > picture > img {
+  object-fit: cover;
+  object-position: 0px -37px;
+}
+@media (max-width: 1200px) {
+  .image3Etapes {
+    object-position: 0px -68px;
+    height: 228px;
+    flex-shrink: 0;
+  }
+}
+@media (max-width: 1200px) {
+  .image3Etapes > picture > img {
+    object-position: 0px -68px;
+  }
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .image3Etapes {
+    object-position: 0px 14px;
+  }
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .image3Etapes > picture > img {
+    object-position: 0px 14px;
+  }
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  min-width: 0;
+}
+.netir {
+  object-fit: cover;
+  height: 100px;
+}
+.netir > picture > img {
+  object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .netir {
+    height: 50px;
+  }
+}
+.text {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-size: 60px;
+  color: var(--token-SJG3A5J6b8qj);
+  padding-left: 40px;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .text {
+    display: none;
+    padding: 0px 0px 0px 20px;
+  }
+}
+.svg {
+  object-fit: cover;
+  max-width: 100%;
+  width: 100px;
+  height: 100px;
+  color: var(--token-SJG3A5J6b8qj);
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .svg {
+    height: 50px;
+    width: 50px;
+    flex-shrink: 0;
+  }
+}
+.wemind {
+  object-fit: cover;
+  height: 250px;
+  width: auto;
+}
+.wemind > picture > img {
+  object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .wemind {
+    height: 150px;
+  }
+}

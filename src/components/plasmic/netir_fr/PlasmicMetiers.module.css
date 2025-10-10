@@ -1,0 +1,36 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 5px;
+  position: relative;
+  min-width: 0;
+}
+.freeBox {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  background: var(--token-ygViUn_d-Nr1);
+  border-radius: 20px;
+  padding: 25px;
+}
+.svg__jzVej {
+  object-fit: cover;
+  width: auto;
+  height: 80px;
+}
+.h5 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  min-width: 0;
+}

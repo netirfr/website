@@ -1,0 +1,40 @@
+/* eslint-disable */
+/* tslint:disable */
+// @ts-nocheck
+/* prettier-ignore-start */
+import React from "react";
+import { classNames } from "@plasmicapp/react-web";
+
+export type PadlockLockedSvgrepoComSvgIconProps =
+  React.ComponentProps<"svg"> & {
+    title?: string;
+  };
+
+export function PadlockLockedSvgrepoComSvgIcon(
+  props: PadlockLockedSvgrepoComSvgIconProps
+) {
+  const { className, style, title, ...restProps } = props;
+  return (
+    <svg
+      xmlns={"http://www.w3.org/2000/svg"}
+      fill={"currentColor"}
+      viewBox={"-6.98 0 54.281 54.281"}
+      height={"1em"}
+      className={classNames("plasmic-default__svg", className)}
+      style={style}
+      {...restProps}
+    >
+      {title && <title>{title}</title>}
+
+      <path
+        data-name={"padlock locked"}
+        d={
+          "M39.346 22.63H.973a.98.98 0 00-.973.972v29.716a.975.975 0 00.971.969h38.376a.977.977 0 00.973-.971V23.595a.978.978 0 00-.974-.965zM25.201 45.91l.317 1.173H14.799l.32-1.173 1.741-6.438a5.395 5.395 0 116.6 0zM8.294 15.01a11.865 11.865 0 1123.73 0v5.29h3.06v-5.59A14.729 14.729 0 0020.37 0h-.43A14.731 14.731 0 005.226 14.71v5.589H8.29z"
+        }
+      ></path>
+    </svg>
+  );
+}
+
+export default PadlockLockedSvgrepoComSvgIcon;
+/* prettier-ignore-end */

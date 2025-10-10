@@ -1,0 +1,127 @@
+.root {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: stretch;
+  flex-shrink: 1;
+  max-width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+  column-gap: 16px;
+  min-width: 0;
+  --plsmc-rc-col-gap: 16px;
+}
+.root > :nth-child(2n + 1) {
+  width: calc((100% - 1 * var(--plsmc-rc-col-gap, 0px)) * 3 / 12);
+}
+.root > :nth-child(2n + 2) {
+  width: calc((100% - 1 * var(--plsmc-rc-col-gap, 0px)) * 9 / 12);
+}
+.column__gHmvc {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+  align-items: flex-end;
+  row-gap: 0px;
+  min-width: 0;
+  padding: 0px;
+}
+.iconStep4 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+  outline-width: thin;
+  outline-offset: 3px;
+  outline-color: #cdcaca;
+  outline-style: solid;
+  box-shadow: 0px 0px 0px 2px #ffffffe8;
+  flex-shrink: 0;
+  border-radius: 50%;
+  padding: 4px;
+}
+.svg {
+  object-fit: cover;
+  max-width: 158%;
+  width: 24px;
+  height: 25px;
+  color: #d1d5db;
+  align-self: center;
+  flex-shrink: 0;
+}
+.column__in6G {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+}
+.informations4 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+}
+@media (max-width: 1200px) {
+  .informations4 {
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+.freeBox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+}
+.text__ew7Dg {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  color: #9ca3afc9;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.25rem;
+  min-width: 0;
+}
+.text__oqf9I {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #6b7280;
+  min-width: 0;
+}
+@media (max-width: 1200px) {
+  .text__oqf9I {
+    width: 154px;
+  }
+}

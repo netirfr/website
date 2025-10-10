@@ -1,0 +1,220 @@
+.root {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 416px;
+  height: 100%;
+  max-width: 24rem;
+  background: #ffffff;
+  position: relative;
+  overflow: auto;
+  min-height: 0;
+  display: none;
+  padding: 1.5rem;
+  border-left: 1px solid #0000002b;
+}
+@media (max-width: 1200px) {
+  .root {
+    display: flex;
+  }
+}
+.freeBox__uIjga {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  align-self: flex-start;
+  margin-bottom: 0px;
+  column-gap: 200px;
+  min-width: 0;
+  padding: 0.375rem;
+}
+.img {
+  object-fit: cover;
+  max-width: 100%;
+  width: 94px;
+  height: 35px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.svg {
+  object-fit: cover;
+  max-width: 100%;
+  color: #535353;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  position: sticky;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.freeBox__frWzg {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: 15px;
+  min-width: 0;
+}
+.text__jIvF6 {
+  font-size: 0.85rem;
+}
+.freeBox__e4Di7 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: 15px;
+  min-width: 0;
+}
+.text__wTqy6 {
+  font-size: 0.85rem;
+}
+.freeBox__ftRgL {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: 15px;
+  min-width: 0;
+}
+.text__l9MX4 {
+  font-size: 0.85rem;
+}
+.freeBox__sgqgr {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: 15px;
+  min-width: 0;
+}
+.text__wO5Of {
+  font-size: 0.85rem;
+}
+.freeBox__bByLs {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: 15px;
+  min-width: 0;
+}
+.text__dCpNo {
+  font-size: 0.85rem;
+}
+.freeBox__wboi9 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: 15px;
+  min-width: 0;
+}
+.text__tvw {
+  font-size: 0.85rem;
+}
+.freeBox__hSjWv {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: 15px;
+  min-width: 0;
+}
+.text__iKz8F {
+  padding-right: 0px;
+  font-size: 0.85rem;
+}
+.freeBox__gBbO8 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: 15px;
+  min-width: 0;
+}
+.text__oCyFr {
+  padding-right: 0px;
+  font-size: 0.85rem;
+}
+.freeBox__hKqFb {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  min-width: 0;
+  border-top: 1px solid #00000042;
+}
+.freeBox__oYrT4 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: 15px;
+  min-width: 0;
+}
+.connexion {
+  font-size: 0.85rem;
+}
+.buttonOldNoirModifier:global(.__wab_instance) {
+  max-width: 100%;
+  align-self: flex-start;
+  flex-shrink: 0;
+}
+@media (max-width: 1200px) {
+  .buttonOldNoirModifier:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}

@@ -1,0 +1,7 @@
+.root {
+  display: flex;
+}
+.slotTargetChildren {
+  font-size: 14px;
+  color: #53535347;
+}
