@@ -84,7 +84,6 @@ import PiggyBankSaveSvgrepoComSvgIcon from "./icons/PlasmicIcon__PiggyBankSaveSv
 import BuildSvgrepoComSvgIcon from "./icons/PlasmicIcon__BuildSvgrepoComSvg"; // plasmic-import: ICINrcYsx2ye/icon
 import ShareSvgrepoCom1SvgIcon from "./icons/PlasmicIcon__ShareSvgrepoCom1Svg"; // plasmic-import: dv_PMYQhsYzL/icon
 import BirdSvgrepoComSvgIcon from "./icons/PlasmicIcon__BirdSvgrepoComSvg"; // plasmic-import: ptdwA2CYCFeS/icon
-import NIcons2Icon from "./icons/PlasmicIcon__NIcons2"; // plasmic-import: _EC8PI1hBKVF/icon
 import NIcons3Icon from "./icons/PlasmicIcon__NIcons3"; // plasmic-import: ZzsUrvDAoxUM/icon
 import apporteuraffaire7PngLMz3OuknO9 from "./images/apporteuraffaire7Png.png"; // plasmic-import: -lMZ_3OuknO9/picture
 import headhunting17929492PngUTyjj2WD5Bmm from "./images/headhunting17929492Png.png"; // plasmic-import: uTYJJ2wD5Bmm/picture
@@ -136,7 +135,8 @@ export type PlasmicLandingApporteurDaffaire__OverridesType = {
   titre4?: Flex__<"div">;
   testimonial?: Flex__<"div">;
   callToAction2?: Flex__<"div">;
-  buttonButton7?: Flex__<typeof ButtonPrimary>;
+  primary5?: Flex__<typeof ButtonPrimary>;
+  primary7?: Flex__<typeof ButtonPrimary>;
   faq2?: Flex__<"section">;
   heroCta?: Flex__<"section">;
   buttonOldHoverNetir?: Flex__<typeof ButtonOldHoverNetir>;
@@ -252,18 +252,6 @@ function PlasmicLandingApporteurDaffaire__RenderFunc(props: {
         initFunc: ({ $props, $state, $queries, $ctx }) => undefined
       },
       {
-        path: "buttonButton7.color",
-        type: "private",
-        variableType: "text",
-        initFunc: ({ $props, $state, $queries, $ctx }) => "buttonNoirModifier2"
-      },
-      {
-        path: "buttonButton7.type",
-        type: "private",
-        variableType: "text",
-        initFunc: ({ $props, $state, $queries, $ctx }) => "soft"
-      },
-      {
         path: "primary3.color",
         type: "private",
         variableType: "text",
@@ -283,6 +271,30 @@ function PlasmicLandingApporteurDaffaire__RenderFunc(props: {
       },
       {
         path: "primary4.type",
+        type: "private",
+        variableType: "text",
+        initFunc: ({ $props, $state, $queries, $ctx }) => "soft"
+      },
+      {
+        path: "primary5.color",
+        type: "private",
+        variableType: "text",
+        initFunc: ({ $props, $state, $queries, $ctx }) => undefined
+      },
+      {
+        path: "primary5.type",
+        type: "private",
+        variableType: "text",
+        initFunc: ({ $props, $state, $queries, $ctx }) => "soft"
+      },
+      {
+        path: "primary7.color",
+        type: "private",
+        variableType: "text",
+        initFunc: ({ $props, $state, $queries, $ctx }) => undefined
+      },
+      {
+        path: "primary7.type",
         type: "private",
         variableType: "text",
         initFunc: ({ $props, $state, $queries, $ctx }) => "soft"
@@ -564,7 +576,7 @@ function PlasmicLandingApporteurDaffaire__RenderFunc(props: {
                               {"Comprendre le mod\u00e8le de commission"}
                             </div>
                           }
-                          linkTo={""}
+                          linkTo={"#solutions"}
                           onColorChange2={async (...eventArgs: any) => {
                             generateStateOnChangeProp($state, [
                               "primary4",
@@ -1019,9 +1031,11 @@ function PlasmicLandingApporteurDaffaire__RenderFunc(props: {
                     alt={""}
                     className={classNames(sty.img__ch63Y)}
                     displayHeight={
-                      hasVariant(globalVariants, "screen", "tabletOnly")
-                        ? "220px"
-                        : "280px"
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "150px"
+                        : hasVariant(globalVariants, "screen", "tabletOnly")
+                          ? "220px"
+                          : "280px"
                     }
                     displayMaxHeight={"none"}
                     displayMaxWidth={"none"}
@@ -1037,65 +1051,137 @@ function PlasmicLandingApporteurDaffaire__RenderFunc(props: {
                     }}
                   />
 
-                  <ButtonPrimary
-                    data-plasmic-name={"buttonButton7"}
-                    data-plasmic-override={overrides.buttonButton7}
-                    className={classNames("__wab_instance", sty.buttonButton7)}
-                    color={generateStateValueProp($state, [
-                      "buttonButton7",
-                      "color"
-                    ])}
-                    end={
-                      <NIcons2Icon
-                        className={classNames(projectcss.all, sty.svg___0U9G4)}
-                        role={"img"}
-                      />
-                    }
-                    label={
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__ejDQ
-                        )}
-                      >
-                        {"Devenez Apporteur d'Affaires Netir maintenant !"}
-                      </div>
-                    }
-                    linkTo={"netir.fr/sign-up"}
-                    onColorChange2={async (...eventArgs: any) => {
-                      generateStateOnChangeProp($state, [
-                        "buttonButton7",
+                  {(
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? true
+                      : false
+                  ) ? (
+                    <ButtonPrimary
+                      data-plasmic-name={"primary5"}
+                      data-plasmic-override={overrides.primary5}
+                      className={classNames("__wab_instance", sty.primary5)}
+                      color={generateStateValueProp($state, [
+                        "primary5",
                         "color"
-                      ]).apply(null, eventArgs);
-
-                      if (
-                        eventArgs.length > 1 &&
-                        eventArgs[1] &&
-                        eventArgs[1]._plasmic_state_init_
-                      ) {
-                        return;
+                      ])}
+                      destination={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? "netir.fr/sign-up"
+                          : undefined
                       }
-                    }}
-                    onTypeChange={async (...eventArgs: any) => {
-                      generateStateOnChangeProp($state, [
-                        "buttonButton7",
+                      label={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__qNgsn
+                          )}
+                        >
+                          {"Devenez Apporteur d'Affaires Netir maintenant !"}
+                        </div>
+                      }
+                      linkTo={""}
+                      onColorChange2={async (...eventArgs: any) => {
+                        generateStateOnChangeProp($state, [
+                          "primary5",
+                          "color"
+                        ]).apply(null, eventArgs);
+
+                        if (
+                          eventArgs.length > 1 &&
+                          eventArgs[1] &&
+                          eventArgs[1]._plasmic_state_init_
+                        ) {
+                          return;
+                        }
+                      }}
+                      onTypeChange={async (...eventArgs: any) => {
+                        generateStateOnChangeProp($state, [
+                          "primary5",
+                          "type"
+                        ]).apply(null, eventArgs);
+
+                        if (
+                          eventArgs.length > 1 &&
+                          eventArgs[1] &&
+                          eventArgs[1]._plasmic_state_init_
+                        ) {
+                          return;
+                        }
+                      }}
+                      type={generateStateValueProp($state, [
+                        "primary5",
                         "type"
-                      ]).apply(null, eventArgs);
-
-                      if (
-                        eventArgs.length > 1 &&
-                        eventArgs[1] &&
-                        eventArgs[1]._plasmic_state_init_
-                      ) {
-                        return;
+                      ])}
+                    />
+                  ) : null}
+                  <PlasmicLink__
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link__me7DV
+                    )}
+                    component={Link}
+                    href={"#solutions"}
+                    platform={"gatsby"}
+                  >
+                    <ButtonPrimary
+                      data-plasmic-name={"primary7"}
+                      data-plasmic-override={overrides.primary7}
+                      className={classNames("__wab_instance", sty.primary7)}
+                      color={generateStateValueProp($state, [
+                        "primary7",
+                        "color"
+                      ])}
+                      destination={"netir.fr/sign-up"}
+                      label={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__dls6
+                          )}
+                        >
+                          {hasVariant(globalVariants, "screen", "mobileOnly")
+                            ? "Devenez Apporteur d'Affaires !"
+                            : "Devenez Apporteur d'Affaires Netir maintenant !"}
+                        </div>
                       }
-                    }}
-                    type={generateStateValueProp($state, [
-                      "buttonButton7",
-                      "type"
-                    ])}
-                  />
+                      linkTo={"#solutions"}
+                      onColorChange2={async (...eventArgs: any) => {
+                        generateStateOnChangeProp($state, [
+                          "primary7",
+                          "color"
+                        ]).apply(null, eventArgs);
+
+                        if (
+                          eventArgs.length > 1 &&
+                          eventArgs[1] &&
+                          eventArgs[1]._plasmic_state_init_
+                        ) {
+                          return;
+                        }
+                      }}
+                      onTypeChange={async (...eventArgs: any) => {
+                        generateStateOnChangeProp($state, [
+                          "primary7",
+                          "type"
+                        ]).apply(null, eventArgs);
+
+                        if (
+                          eventArgs.length > 1 &&
+                          eventArgs[1] &&
+                          eventArgs[1]._plasmic_state_init_
+                        ) {
+                          return;
+                        }
+                      }}
+                      type={generateStateValueProp($state, [
+                        "primary7",
+                        "type"
+                      ])}
+                    />
+                  </PlasmicLink__>
                 </div>
               </div>
             </div>
@@ -1516,7 +1602,8 @@ const PlasmicDescendants = {
     "titre4",
     "testimonial",
     "callToAction2",
-    "buttonButton7",
+    "primary5",
+    "primary7",
     "faq2",
     "heroCta",
     "buttonOldHoverNetir",
@@ -1545,7 +1632,8 @@ const PlasmicDescendants = {
     "titre4",
     "testimonial",
     "callToAction2",
-    "buttonButton7",
+    "primary5",
+    "primary7",
     "faq2",
     "heroCta",
     "buttonOldHoverNetir",
@@ -1583,8 +1671,9 @@ const PlasmicDescendants = {
   testimonials: ["testimonials", "titre4", "testimonial"],
   titre4: ["titre4"],
   testimonial: ["testimonial"],
-  callToAction2: ["callToAction2", "buttonButton7"],
-  buttonButton7: ["buttonButton7"],
+  callToAction2: ["callToAction2", "primary5", "primary7"],
+  primary5: ["primary5"],
+  primary7: ["primary7"],
   faq2: ["faq2"],
   heroCta: ["heroCta", "buttonOldHoverNetir"],
   buttonOldHoverNetir: ["buttonOldHoverNetir"],
@@ -1617,7 +1706,8 @@ type NodeDefaultElementType = {
   titre4: "div";
   testimonial: "div";
   callToAction2: "div";
-  buttonButton7: typeof ButtonPrimary;
+  primary5: typeof ButtonPrimary;
+  primary7: typeof ButtonPrimary;
   faq2: "section";
   heroCta: "section";
   buttonOldHoverNetir: typeof ButtonOldHoverNetir;
@@ -1709,7 +1799,8 @@ export const PlasmicLandingApporteurDaffaire = Object.assign(
     titre4: makeNodeComponent("titre4"),
     testimonial: makeNodeComponent("testimonial"),
     callToAction2: makeNodeComponent("callToAction2"),
-    buttonButton7: makeNodeComponent("buttonButton7"),
+    primary5: makeNodeComponent("primary5"),
+    primary7: makeNodeComponent("primary7"),
     faq2: makeNodeComponent("faq2"),
     heroCta: makeNodeComponent("heroCta"),
     buttonOldHoverNetir: makeNodeComponent("buttonOldHoverNetir"),

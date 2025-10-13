@@ -93,7 +93,6 @@ import MedalRibbonsStarSvgrepoComSvgIcon from "./icons/PlasmicIcon__MedalRibbons
 import TimerSvgrepoComSvgIcon from "./icons/PlasmicIcon__TimerSvgrepoComSvg"; // plasmic-import: O3lPJXcM3Guy/icon
 import SettingSvgrepoComSvgIcon from "./icons/PlasmicIcon__SettingSvgrepoComSvg"; // plasmic-import: IRfbvCfKQdn8/icon
 import CheckFileSvgrepoComSvgIcon from "./icons/PlasmicIcon__CheckFileSvgrepoComSvg"; // plasmic-import: gvT2nOM0SJsY/icon
-import NIcons2Icon from "./icons/PlasmicIcon__NIcons2"; // plasmic-import: _EC8PI1hBKVF/icon
 import NIcons3Icon from "./icons/PlasmicIcon__NIcons3"; // plasmic-import: ZzsUrvDAoxUM/icon
 import CupStarSvgrepoCom1SvgIcon from "./icons/PlasmicIcon__CupStarSvgrepoCom1Svg"; // plasmic-import: GOQxfpR3bfoD/icon
 import Icon6Icon from "./icons/PlasmicIcon__Icon6"; // plasmic-import: PULVk5w2WWx_/icon
@@ -151,7 +150,6 @@ import image89Z7Sz6A2YHj4H from "./images/image89.svg"; // plasmic-import: Z7sz6
 import image90Jlb7I7EpS7Xi from "./images/image90.svg"; // plasmic-import: jlb7i7epS7xi/picture
 import geminiGeneratedImage8R11Yk8R11Yk8R11RemovebgPreviewPngBZ8T737YaQxk from "./images/geminiGeneratedImage8R11Yk8R11Yk8R11RemovebgPreviewPng.png"; // plasmic-import: bZ8t737YaQXK/picture
 import image41MvZbyZuDk41 from "./images/image41.svg"; // plasmic-import: MvZBY-ZuDK41/picture
-import mentor3PngTQv2Vxp8NSt from "./images/mentor3Png.png"; // plasmic-import: T_qv2Vxp8NSt/picture
 import logoTextBlackColorBgWhite1500PngBSyZCbzPXsht from "./images/logoTextBlackColorBgWhite1500Png.png"; // plasmic-import: BSyZCbzPXsht/picture
 
 createPlasmicElementProxy;
@@ -181,6 +179,7 @@ export type PlasmicLandingEntreprise__OverridesType = {
   interactionEffect10?: Flex__<"div">;
   value2?: Flex__<"div">;
   titre3?: Flex__<"div">;
+  h4?: Flex__<"h4">;
   boutons4?: Flex__<"div">;
   primary5?: Flex__<typeof ButtonPrimary>;
   primary6?: Flex__<typeof ButtonPrimary>;
@@ -216,7 +215,7 @@ export type PlasmicLandingEntreprise__OverridesType = {
   titre4?: Flex__<"div">;
   testimonial?: Flex__<"div">;
   callToAction1?: Flex__<"div">;
-  buttonButton4?: Flex__<typeof ButtonPrimary>;
+  primary7?: Flex__<typeof ButtonPrimary>;
   oldHero?: Flex__<"div">;
   valueProposition?: Flex__<"div">;
   buttons2?: Flex__<"div">;
@@ -255,15 +254,6 @@ export type PlasmicLandingEntreprise__OverridesType = {
   faq?: Flex__<"div">;
   titre7?: Flex__<"div">;
   footer?: Flex__<typeof Footer>;
-  hero2?: Flex__<"div">;
-  siteHeader4?: Flex__<typeof SiteHeader>;
-  buttonButton6?: Flex__<typeof ButtonPrimary>;
-  interactionEffect7?: Flex__<"div">;
-  value?: Flex__<"div">;
-  titre?: Flex__<"div">;
-  boutons3?: Flex__<"div">;
-  primary3?: Flex__<typeof ButtonPrimary>;
-  primary4?: Flex__<typeof ButtonPrimary>;
 };
 
 export interface DefaultLandingEntrepriseProps {
@@ -661,60 +651,6 @@ function PlasmicLandingEntreprise__RenderFunc(props: {
         onMutate: generateOnMutateForSpec("currentSlide", SliderWrapper_Helpers)
       },
       {
-        path: "buttonButton4.color",
-        type: "private",
-        variableType: "text",
-        initFunc: ({ $props, $state, $queries, $ctx }) => "buttonNoirModifier2"
-      },
-      {
-        path: "buttonButton4.type",
-        type: "private",
-        variableType: "text",
-        initFunc: ({ $props, $state, $queries, $ctx }) => "soft"
-      },
-      {
-        path: "siteHeader4.isNavopen",
-        type: "private",
-        variableType: "boolean",
-        initFunc: ({ $props, $state, $queries, $ctx }) => false
-      },
-      {
-        path: "buttonButton6.color",
-        type: "private",
-        variableType: "text",
-        initFunc: ({ $props, $state, $queries, $ctx }) => undefined
-      },
-      {
-        path: "buttonButton6.type",
-        type: "private",
-        variableType: "text",
-        initFunc: ({ $props, $state, $queries, $ctx }) => undefined
-      },
-      {
-        path: "primary3.color",
-        type: "private",
-        variableType: "text",
-        initFunc: ({ $props, $state, $queries, $ctx }) => undefined
-      },
-      {
-        path: "primary3.type",
-        type: "private",
-        variableType: "text",
-        initFunc: ({ $props, $state, $queries, $ctx }) => undefined
-      },
-      {
-        path: "primary4.color",
-        type: "private",
-        variableType: "text",
-        initFunc: ({ $props, $state, $queries, $ctx }) => undefined
-      },
-      {
-        path: "primary4.type",
-        type: "private",
-        variableType: "text",
-        initFunc: ({ $props, $state, $queries, $ctx }) => "soft"
-      },
-      {
         path: "siteHeader.isNavopen",
         type: "private",
         variableType: "boolean",
@@ -752,6 +688,18 @@ function PlasmicLandingEntreprise__RenderFunc(props: {
       },
       {
         path: "primary6.type",
+        type: "private",
+        variableType: "text",
+        initFunc: ({ $props, $state, $queries, $ctx }) => "soft"
+      },
+      {
+        path: "primary7.color",
+        type: "private",
+        variableType: "text",
+        initFunc: ({ $props, $state, $queries, $ctx }) => undefined
+      },
+      {
+        path: "primary7.type",
         type: "private",
         variableType: "text",
         initFunc: ({ $props, $state, $queries, $ctx }) => "soft"
@@ -915,17 +863,19 @@ function PlasmicLandingEntreprise__RenderFunc(props: {
                           style={{ color: "var(--token-a7EGbo9QyMt7)" }}
                         >
                           {
-                            "Entreprises : fini le recrutement au hasard. Trouvez le talent juste, coach\u00e9 pour l'excellence."
+                            "Entreprise : fini le recrutement au hasard. Trouvez le talent juste, coach\u00e9 pour l'excellence."
                           }
                         </span>
                       </React.Fragment>
                     </h1>
                     <h4
+                      data-plasmic-name={"h4"}
+                      data-plasmic-override={overrides.h4}
                       className={classNames(
                         projectcss.all,
                         projectcss.h4,
                         projectcss.__wab_text,
-                        sty.h4__kYgd6
+                        sty.h4
                       )}
                     >
                       {hasVariant(globalVariants, "screen", "tabletOnly")
@@ -2204,37 +2154,59 @@ function PlasmicLandingEntreprise__RenderFunc(props: {
                   >
                     {"Pr\u00eat \u00e0 recruter l'excellence sans les tracas ?"}
                   </h2>
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__eNsvQ)}
+                    displayHeight={
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "150px"
+                        : hasVariant(globalVariants, "screen", "tabletOnly")
+                          ? "250px"
+                          : "340px"
+                    }
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"none"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "150px"
+                        : "250px"
+                    }
+                    loading={"lazy"}
+                    src={{
+                      src: entrepriseRemovebgPreviewPng0RJyLeW7L1L,
+                      fullWidth: 500,
+                      fullHeight: 500,
+                      aspectRatio: undefined
+                    }}
+                  />
+
                   <ButtonPrimary
-                    data-plasmic-name={"buttonButton4"}
-                    data-plasmic-override={overrides.buttonButton4}
-                    className={classNames("__wab_instance", sty.buttonButton4)}
+                    data-plasmic-name={"primary7"}
+                    data-plasmic-override={overrides.primary7}
+                    className={classNames("__wab_instance", sty.primary7)}
                     color={generateStateValueProp($state, [
-                      "buttonButton4",
+                      "primary7",
                       "color"
                     ])}
-                    end={
-                      <NIcons2Icon
-                        className={classNames(projectcss.all, sty.svg__uo0RQ)}
-                        role={"img"}
-                      />
-                    }
                     label={
                       <div
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__fUc9
+                          sty.text__pPs2Z
                         )}
                       >
-                        {
-                          "Trouvez votre talent coach\u00e9 d\u00e8s maintenant !"
-                        }
+                        {hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? "Trouvez votre talent coach\u00e9 !"
+                          : "Trouvez votre talent coach\u00e9 d\u00e8s maintenant !"}
                       </div>
                     }
                     linkTo={"netir.fr/sign-up"}
                     onColorChange2={async (...eventArgs: any) => {
                       generateStateOnChangeProp($state, [
-                        "buttonButton4",
+                        "primary7",
                         "color"
                       ]).apply(null, eventArgs);
 
@@ -2248,7 +2220,7 @@ function PlasmicLandingEntreprise__RenderFunc(props: {
                     }}
                     onTypeChange={async (...eventArgs: any) => {
                       generateStateOnChangeProp($state, [
-                        "buttonButton4",
+                        "primary7",
                         "type"
                       ]).apply(null, eventArgs);
 
@@ -2260,40 +2232,10 @@ function PlasmicLandingEntreprise__RenderFunc(props: {
                         return;
                       }
                     }}
-                    type={generateStateValueProp($state, [
-                      "buttonButton4",
-                      "type"
-                    ])}
+                    type={generateStateValueProp($state, ["primary7", "type"])}
                   />
                 </div>
               </div>
-              <PlasmicImg__
-                alt={""}
-                className={classNames(sty.img__eNsvQ)}
-                displayHeight={
-                  hasVariant(globalVariants, "screen", "mobileOnly")
-                    ? "150px"
-                    : hasVariant(globalVariants, "screen", "tabletOnly")
-                      ? "250px"
-                      : "340px"
-                }
-                displayMaxHeight={"none"}
-                displayMaxWidth={"none"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={
-                  hasVariant(globalVariants, "screen", "mobileOnly")
-                    ? "150px"
-                    : "250px"
-                }
-                loading={"lazy"}
-                src={{
-                  src: entrepriseRemovebgPreviewPng0RJyLeW7L1L,
-                  fullWidth: 500,
-                  fullHeight: 500,
-                  aspectRatio: undefined
-                }}
-              />
             </div>
             <div
               data-plasmic-name={"oldHero"}
@@ -4426,316 +4368,6 @@ function PlasmicLandingEntreprise__RenderFunc(props: {
               data-plasmic-override={overrides.footer}
               className={classNames("__wab_instance", sty.footer)}
             />
-
-            {(
-              hasVariant(globalVariants, "screen", "tabletOnly") ? true : false
-            ) ? (
-              <div
-                data-plasmic-name={"hero2"}
-                data-plasmic-override={overrides.hero2}
-                className={classNames(projectcss.all, sty.hero2)}
-              >
-                <SiteHeader
-                  data-plasmic-name={"siteHeader4"}
-                  data-plasmic-override={overrides.siteHeader4}
-                  className={classNames("__wab_instance", sty.siteHeader4)}
-                  isNavopen={generateStateValueProp($state, [
-                    "siteHeader4",
-                    "isNavopen"
-                  ])}
-                  onIsNavopenChange={async (...eventArgs: any) => {
-                    generateStateOnChangeProp($state, [
-                      "siteHeader4",
-                      "isNavopen"
-                    ]).apply(null, eventArgs);
-
-                    if (
-                      eventArgs.length > 1 &&
-                      eventArgs[1] &&
-                      eventArgs[1]._plasmic_state_init_
-                    ) {
-                      return;
-                    }
-                  }}
-                >
-                  <ButtonPrimary
-                    data-plasmic-name={"buttonButton6"}
-                    data-plasmic-override={overrides.buttonButton6}
-                    className={classNames("__wab_instance", sty.buttonButton6)}
-                    color={generateStateValueProp($state, [
-                      "buttonButton6",
-                      "color"
-                    ])}
-                    disabled={false}
-                    interactionEffect2={
-                      <div
-                        data-plasmic-name={"interactionEffect7"}
-                        data-plasmic-override={overrides.interactionEffect7}
-                        className={classNames(
-                          projectcss.all,
-                          sty.interactionEffect7
-                        )}
-                      />
-                    }
-                    label={
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__ozcOp
-                        )}
-                      >
-                        {"Inscription"}
-                      </div>
-                    }
-                    onColorChange2={async (...eventArgs: any) => {
-                      generateStateOnChangeProp($state, [
-                        "buttonButton6",
-                        "color"
-                      ]).apply(null, eventArgs);
-
-                      if (
-                        eventArgs.length > 1 &&
-                        eventArgs[1] &&
-                        eventArgs[1]._plasmic_state_init_
-                      ) {
-                        return;
-                      }
-                    }}
-                    onTypeChange={async (...eventArgs: any) => {
-                      generateStateOnChangeProp($state, [
-                        "buttonButton6",
-                        "type"
-                      ]).apply(null, eventArgs);
-
-                      if (
-                        eventArgs.length > 1 &&
-                        eventArgs[1] &&
-                        eventArgs[1]._plasmic_state_init_
-                      ) {
-                        return;
-                      }
-                    }}
-                    type={generateStateValueProp($state, [
-                      "buttonButton6",
-                      "type"
-                    ])}
-                  />
-                </SiteHeader>
-                <div className={classNames(projectcss.all, sty.freeBox__bfqRi)}>
-                  <div
-                    data-plasmic-name={"value"}
-                    data-plasmic-override={overrides.value}
-                    className={classNames(projectcss.all, sty.value)}
-                  >
-                    <div
-                      data-plasmic-name={"titre"}
-                      data-plasmic-override={overrides.titre}
-                      className={classNames(projectcss.all, sty.titre)}
-                    >
-                      <h1
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.h1,
-                          projectcss.__wab_text,
-                          sty.h1___87XWj
-                        )}
-                      >
-                        <React.Fragment>
-                          <span
-                            className={
-                              "plasmic_default__all plasmic_default__span"
-                            }
-                            style={{ color: "var(--token-a7EGbo9QyMt7)" }}
-                          >
-                            {
-                              "Mentor : transformez votre expertise en impact et en revenu compl\u00e9mentaire."
-                            }
-                          </span>
-                        </React.Fragment>
-                      </h1>
-                      <h4
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.h4,
-                          projectcss.__wab_text,
-                          sty.h4__eJ9Vb
-                        )}
-                      >
-                        {hasVariant(globalVariants, "screen", "tabletOnly")
-                          ? "Faites confiance \u00e0 nos mentors, ils sauront vous proposer nos meilleurs freelances."
-                          : "Rejoignez Netir et devenez le guide de la nouvelle g\u00e9n\u00e9ration freelance. Transmettez votre savoir, construisez votre h\u00e9ritage et soyez r\u00e9mun\u00e9r\u00e9 pour votre exp\u00e9rience."}
-                      </h4>
-                      <div
-                        data-plasmic-name={"boutons3"}
-                        data-plasmic-override={overrides.boutons3}
-                        className={classNames(projectcss.all, sty.boutons3)}
-                      >
-                        <PlasmicLink__
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.a,
-                            sty.link__fxd5P
-                          )}
-                          component={Link}
-                          platform={"gatsby"}
-                        >
-                          <ButtonPrimary
-                            data-plasmic-name={"primary3"}
-                            data-plasmic-override={overrides.primary3}
-                            className={classNames(
-                              "__wab_instance",
-                              sty.primary3
-                            )}
-                            color={generateStateValueProp($state, [
-                              "primary3",
-                              "color"
-                            ])}
-                            label={
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text___1HcxX
-                                )}
-                              >
-                                {"Devenez mentor Netir !"}
-                              </div>
-                            }
-                            onColorChange2={async (...eventArgs: any) => {
-                              generateStateOnChangeProp($state, [
-                                "primary3",
-                                "color"
-                              ]).apply(null, eventArgs);
-
-                              if (
-                                eventArgs.length > 1 &&
-                                eventArgs[1] &&
-                                eventArgs[1]._plasmic_state_init_
-                              ) {
-                                return;
-                              }
-                            }}
-                            onTypeChange={async (...eventArgs: any) => {
-                              generateStateOnChangeProp($state, [
-                                "primary3",
-                                "type"
-                              ]).apply(null, eventArgs);
-
-                              if (
-                                eventArgs.length > 1 &&
-                                eventArgs[1] &&
-                                eventArgs[1]._plasmic_state_init_
-                              ) {
-                                return;
-                              }
-                            }}
-                            type={generateStateValueProp($state, [
-                              "primary3",
-                              "type"
-                            ])}
-                          />
-                        </PlasmicLink__>
-                        <PlasmicLink__
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.a,
-                            sty.link__loGi
-                          )}
-                          component={Link}
-                          platform={"gatsby"}
-                        >
-                          <ButtonPrimary
-                            data-plasmic-name={"primary4"}
-                            data-plasmic-override={overrides.primary4}
-                            className={classNames(
-                              "__wab_instance",
-                              sty.primary4
-                            )}
-                            color={generateStateValueProp($state, [
-                              "primary4",
-                              "color"
-                            ])}
-                            label={
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__tFReD
-                                )}
-                              >
-                                {"D\u00e9couvrir le programme de mentorat"}
-                              </div>
-                            }
-                            onColorChange2={async (...eventArgs: any) => {
-                              generateStateOnChangeProp($state, [
-                                "primary4",
-                                "color"
-                              ]).apply(null, eventArgs);
-
-                              if (
-                                eventArgs.length > 1 &&
-                                eventArgs[1] &&
-                                eventArgs[1]._plasmic_state_init_
-                              ) {
-                                return;
-                              }
-                            }}
-                            onTypeChange={async (...eventArgs: any) => {
-                              generateStateOnChangeProp($state, [
-                                "primary4",
-                                "type"
-                              ]).apply(null, eventArgs);
-
-                              if (
-                                eventArgs.length > 1 &&
-                                eventArgs[1] &&
-                                eventArgs[1]._plasmic_state_init_
-                              ) {
-                                return;
-                              }
-                            }}
-                            type={generateStateValueProp($state, [
-                              "primary4",
-                              "type"
-                            ])}
-                          />
-                        </PlasmicLink__>
-                      </div>
-                    </div>
-                    <PlasmicImg__
-                      alt={""}
-                      className={classNames(sty.img__dNltg)}
-                      displayHeight={
-                        hasVariant(globalVariants, "screen", "tabletOnly")
-                          ? "auto"
-                          : "600px"
-                      }
-                      displayMaxHeight={"none"}
-                      displayMaxWidth={
-                        hasVariant(globalVariants, "screen", "tabletOnly")
-                          ? "100%"
-                          : "none"
-                      }
-                      displayMinHeight={"0"}
-                      displayMinWidth={"0"}
-                      displayWidth={
-                        hasVariant(globalVariants, "screen", "tabletOnly")
-                          ? "auto"
-                          : "37%"
-                      }
-                      loading={"lazy"}
-                      src={{
-                        src: mentor3PngTQv2Vxp8NSt,
-                        fullWidth: 1024,
-                        fullHeight: 1024,
-                        aspectRatio: undefined
-                      }}
-                    />
-                  </div>
-                </div>
-              </div>
-            ) : null}
           </div>
         </div>
       </div>
@@ -4753,6 +4385,7 @@ const PlasmicDescendants = {
     "interactionEffect10",
     "value2",
     "titre3",
+    "h4",
     "boutons4",
     "primary5",
     "primary6",
@@ -4788,7 +4421,7 @@ const PlasmicDescendants = {
     "titre4",
     "testimonial",
     "callToAction1",
-    "buttonButton4",
+    "primary7",
     "oldHero",
     "valueProposition",
     "buttons2",
@@ -4826,16 +4459,7 @@ const PlasmicDescendants = {
     "services12",
     "faq",
     "titre7",
-    "footer",
-    "hero2",
-    "siteHeader4",
-    "buttonButton6",
-    "interactionEffect7",
-    "value",
-    "titre",
-    "boutons3",
-    "primary3",
-    "primary4"
+    "footer"
   ],
   wrapper: [
     "wrapper",
@@ -4845,6 +4469,7 @@ const PlasmicDescendants = {
     "interactionEffect10",
     "value2",
     "titre3",
+    "h4",
     "boutons4",
     "primary5",
     "primary6",
@@ -4880,7 +4505,7 @@ const PlasmicDescendants = {
     "titre4",
     "testimonial",
     "callToAction1",
-    "buttonButton4",
+    "primary7",
     "oldHero",
     "valueProposition",
     "buttons2",
@@ -4918,16 +4543,7 @@ const PlasmicDescendants = {
     "services12",
     "faq",
     "titre7",
-    "footer",
-    "hero2",
-    "siteHeader4",
-    "buttonButton6",
-    "interactionEffect7",
-    "value",
-    "titre",
-    "boutons3",
-    "primary3",
-    "primary4"
+    "footer"
   ],
   hero: [
     "hero",
@@ -4936,6 +4552,7 @@ const PlasmicDescendants = {
     "interactionEffect10",
     "value2",
     "titre3",
+    "h4",
     "boutons4",
     "primary5",
     "primary6"
@@ -4943,8 +4560,9 @@ const PlasmicDescendants = {
   siteHeader: ["siteHeader", "buttonButton7", "interactionEffect10"],
   buttonButton7: ["buttonButton7", "interactionEffect10"],
   interactionEffect10: ["interactionEffect10"],
-  value2: ["value2", "titre3", "boutons4", "primary5", "primary6"],
-  titre3: ["titre3", "boutons4", "primary5", "primary6"],
+  value2: ["value2", "titre3", "h4", "boutons4", "primary5", "primary6"],
+  titre3: ["titre3", "h4", "boutons4", "primary5", "primary6"],
+  h4: ["h4"],
   boutons4: ["boutons4", "primary5", "primary6"],
   primary5: ["primary5"],
   primary6: ["primary6"],
@@ -5031,8 +4649,8 @@ const PlasmicDescendants = {
   testimonials: ["testimonials", "titre4", "testimonial"],
   titre4: ["titre4"],
   testimonial: ["testimonial"],
-  callToAction1: ["callToAction1", "buttonButton4"],
-  buttonButton4: ["buttonButton4"],
+  callToAction1: ["callToAction1", "primary7"],
+  primary7: ["primary7"],
   oldHero: [
     "oldHero",
     "valueProposition",
@@ -5116,26 +4734,7 @@ const PlasmicDescendants = {
   services12: ["services12"],
   faq: ["faq", "titre7"],
   titre7: ["titre7"],
-  footer: ["footer"],
-  hero2: [
-    "hero2",
-    "siteHeader4",
-    "buttonButton6",
-    "interactionEffect7",
-    "value",
-    "titre",
-    "boutons3",
-    "primary3",
-    "primary4"
-  ],
-  siteHeader4: ["siteHeader4", "buttonButton6", "interactionEffect7"],
-  buttonButton6: ["buttonButton6", "interactionEffect7"],
-  interactionEffect7: ["interactionEffect7"],
-  value: ["value", "titre", "boutons3", "primary3", "primary4"],
-  titre: ["titre", "boutons3", "primary3", "primary4"],
-  boutons3: ["boutons3", "primary3", "primary4"],
-  primary3: ["primary3"],
-  primary4: ["primary4"]
+  footer: ["footer"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -5149,6 +4748,7 @@ type NodeDefaultElementType = {
   interactionEffect10: "div";
   value2: "div";
   titre3: "div";
+  h4: "h4";
   boutons4: "div";
   primary5: typeof ButtonPrimary;
   primary6: typeof ButtonPrimary;
@@ -5184,7 +4784,7 @@ type NodeDefaultElementType = {
   titre4: "div";
   testimonial: "div";
   callToAction1: "div";
-  buttonButton4: typeof ButtonPrimary;
+  primary7: typeof ButtonPrimary;
   oldHero: "div";
   valueProposition: "div";
   buttons2: "div";
@@ -5223,15 +4823,6 @@ type NodeDefaultElementType = {
   faq: "div";
   titre7: "div";
   footer: typeof Footer;
-  hero2: "div";
-  siteHeader4: typeof SiteHeader;
-  buttonButton6: typeof ButtonPrimary;
-  interactionEffect7: "div";
-  value: "div";
-  titre: "div";
-  boutons3: "div";
-  primary3: typeof ButtonPrimary;
-  primary4: typeof ButtonPrimary;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -5303,6 +4894,7 @@ export const PlasmicLandingEntreprise = Object.assign(
     interactionEffect10: makeNodeComponent("interactionEffect10"),
     value2: makeNodeComponent("value2"),
     titre3: makeNodeComponent("titre3"),
+    h4: makeNodeComponent("h4"),
     boutons4: makeNodeComponent("boutons4"),
     primary5: makeNodeComponent("primary5"),
     primary6: makeNodeComponent("primary6"),
@@ -5338,7 +4930,7 @@ export const PlasmicLandingEntreprise = Object.assign(
     titre4: makeNodeComponent("titre4"),
     testimonial: makeNodeComponent("testimonial"),
     callToAction1: makeNodeComponent("callToAction1"),
-    buttonButton4: makeNodeComponent("buttonButton4"),
+    primary7: makeNodeComponent("primary7"),
     oldHero: makeNodeComponent("oldHero"),
     valueProposition: makeNodeComponent("valueProposition"),
     buttons2: makeNodeComponent("buttons2"),
@@ -5377,15 +4969,6 @@ export const PlasmicLandingEntreprise = Object.assign(
     faq: makeNodeComponent("faq"),
     titre7: makeNodeComponent("titre7"),
     footer: makeNodeComponent("footer"),
-    hero2: makeNodeComponent("hero2"),
-    siteHeader4: makeNodeComponent("siteHeader4"),
-    buttonButton6: makeNodeComponent("buttonButton6"),
-    interactionEffect7: makeNodeComponent("interactionEffect7"),
-    value: makeNodeComponent("value"),
-    titre: makeNodeComponent("titre"),
-    boutons3: makeNodeComponent("boutons3"),
-    primary3: makeNodeComponent("primary3"),
-    primary4: makeNodeComponent("primary4"),
 
     // Metadata about props expected for PlasmicLandingEntreprise
     internalVariantProps: PlasmicLandingEntreprise__VariantProps,

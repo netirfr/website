@@ -72,7 +72,7 @@ import * as projectcss from "./plasmic.module.css"; // plasmic-import: oiQgZxfnS
 import * as sty from "./PlasmicHomepageNavbar.module.css"; // plasmic-import: eyoxTGMzE-Q0/css
 
 import CrossSvgrepoComSvgIcon from "./icons/PlasmicIcon__CrossSvgrepoComSvg"; // plasmic-import: eBCRhro0-L2F/icon
-import nLogo4X7VwM2YjHhq from "./images/nLogo.svg"; // plasmic-import: 4X7vwM2yjHHQ/picture
+import image106WH1Du1MbvdFm from "./images/image106.svg"; // plasmic-import: wH1DU1MbvdFM/picture
 
 createPlasmicElementProxy;
 
@@ -251,10 +251,10 @@ function PlasmicHomepageNavbar__RenderFunc(props: {
             }
           }}
           src={{
-            src: nLogo4X7VwM2YjHhq,
-            fullWidth: 100.26872253417969,
-            fullHeight: 36.720001220703125,
-            aspectRatio: 2.72973
+            src: image106WH1Du1MbvdFm,
+            fullWidth: 147,
+            fullHeight: 54,
+            aspectRatio: undefined
           }}
         />
 

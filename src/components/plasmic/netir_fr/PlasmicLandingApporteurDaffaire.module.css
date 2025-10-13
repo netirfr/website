@@ -392,6 +392,12 @@
 .primary4:global(.__wab_instance):global(.__wab_instance) {
   max-width: 100%;
 }
+@media (min-width: 0px) and (max-width: 766px) {
+  .primary4:global(.__wab_instance):global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .freeBox__gCnta {
   display: block;
   position: absolute;
@@ -1100,10 +1106,9 @@
 }
 @media (min-width: 0px) and (max-width: 766px) {
   .callToAction2 {
-    padding-top: 100px;
-    padding-bottom: 100px;
     left: auto;
     top: auto;
+    padding: 20px;
   }
 }
 @media (min-width: 0px) and (max-width: 766px) {
@@ -1126,7 +1131,7 @@
 }
 @media (min-width: 0px) and (max-width: 766px) {
   .freeBox__va8Bz {
-    padding: 0px 60px;
+    padding: 0px;
   }
 }
 .freeBox__al4X {
@@ -1148,7 +1153,9 @@
     display: flex;
     flex-direction: column;
     row-gap: 20px;
+    width: auto;
     column-gap: 0px;
+    padding: 20px;
   }
 }
 .h2___10H7L {
@@ -1177,7 +1184,7 @@
 }
 @media (min-width: 0px) and (max-width: 766px) {
   .h2___10H7L {
-    font-size: var(--token-bucIARGmMoc6);
+    font-size: var(--token-_kt3GTbtgWlp);
   }
 }
 .img__ch63Y {
@@ -1195,58 +1202,29 @@
 @media (max-width: 1200px) {
   .img__ch63Y {
     left: -22px;
-    top: 112px;
+    top: 52px;
     height: 220px;
     flex-shrink: 0;
   }
 }
-.buttonButton7:global(.__wab_instance):global(.__wab_instance) {
-  max-width: 100%;
-  z-index: 2;
-}
 @media (min-width: 0px) and (max-width: 766px) {
-  .buttonButton7:global(.__wab_instance):global(.__wab_instance) {
-    width: 177px;
-    height: 47px;
+  .img__ch63Y {
+    height: 150px;
+    top: 18px;
     flex-shrink: 0;
   }
 }
-.svg___5UAk4 {
-  position: relative;
-  height: 1em;
-}
-.text__ejDQ {
-  white-space: pre;
-  padding-right: 0px;
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  font-style: normal;
-  text-align: left;
-  text-transform: none;
-  line-height: 1.5;
-  letter-spacing: normal;
-  user-select: text;
-  text-decoration-line: none !important;
-  text-overflow: clip !important;
-  color: var(--token-SJG3A5J6b8qj);
+.primary5:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
 }
 @media (min-width: 0px) and (max-width: 766px) {
-  .text__ejDQ {
-    font-size: 15px;
+  .primary5:global(.__wab_instance):global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+    display: none;
   }
 }
-.svg___0U9G4 {
-  object-fit: cover;
-  max-width: 100%;
-  color: #fff;
-  width: 24px;
-  height: 24px;
-  display: block;
-  position: relative;
-  overflow: hidden;
-}
-.freeBox___92O9 {
+.freeBox__fpVsP {
   display: block;
   position: absolute;
   top: 0px;
@@ -1256,6 +1234,78 @@
   background: none;
   padding-right: 0px;
   border-radius: var(--token-EwyLdwq4MGkT);
+}
+.svg__jwG9X {
+  position: relative;
+  height: 1em;
+}
+.text__qNgsn {
+  white-space: pre-wrap;
+  padding-right: 0px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--token-SJG3A5J6b8qj);
+  text-transform: none;
+  line-height: 1.5;
+  letter-spacing: normal;
+  user-select: text;
+  text-decoration-line: none !important;
+  text-overflow: clip !important;
+}
+.svg__y7Oj {
+  position: relative;
+  height: 1em;
+}
+.link__me7DV {
+  display: flex;
+}
+.primary7:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .primary7:global(.__wab_instance):global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.freeBox___9Kg52 {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background: none;
+  padding-right: 0px;
+  border-radius: var(--token-EwyLdwq4MGkT);
+}
+.svg__igqo4 {
+  position: relative;
+  height: 1em;
+}
+.text__dls6 {
+  white-space: pre-wrap;
+  padding-right: 0px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--token-SJG3A5J6b8qj);
+  text-transform: none;
+  line-height: 1.5;
+  letter-spacing: normal;
+  user-select: text;
+  text-decoration-line: none !important;
+  text-overflow: clip !important;
+  padding-left: 0px;
+}
+.svg___0WG5M {
+  position: relative;
+  height: 1em;
 }
 .faq2 {
   display: grid;

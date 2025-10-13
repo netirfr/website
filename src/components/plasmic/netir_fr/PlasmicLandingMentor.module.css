@@ -1956,7 +1956,7 @@
     flex-direction: column;
     row-gap: 20px;
     column-gap: 0px;
-    padding: 40px;
+    padding: 20px;
   }
 }
 .h2__eFuuD {
@@ -2069,9 +2069,9 @@
 @media (min-width: 0px) and (max-width: 766px) {
   .img__yPpkK {
     width: 100px;
-    height: 200px;
-    top: 1px;
-    left: 18px;
+    height: 150px;
+    top: 11px;
+    left: 8px;
     flex-shrink: 0;
   }
 }

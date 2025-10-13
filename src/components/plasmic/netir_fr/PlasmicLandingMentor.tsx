@@ -1662,7 +1662,7 @@ function PlasmicLandingMentor__RenderFunc(props: {
                     className={classNames(sty.img__yPpkK)}
                     displayHeight={
                       hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? "200px"
+                        ? "150px"
                         : hasVariant(globalVariants, "screen", "tabletOnly")
                           ? "250px"
                           : "300px"

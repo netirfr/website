@@ -202,7 +202,7 @@
   object-fit: cover;
   max-width: 100%;
   color: var(--token-SJG3A5J6b8qj);
-  height: 80px;
+  height: 50px;
 }
 .homepageNavbar:global(.__wab_instance) {
   position: fixed;
@@ -279,5 +279,5 @@
   object-fit: cover;
   max-width: 100%;
   color: var(--token-SJG3A5J6b8qj);
-  height: 80px;
+  height: 40px;
 }
