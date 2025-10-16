@@ -13,13 +13,11 @@
   transition-property: all;
   transition-duration: 200ms;
   transition-timing-function: ease-in-out;
-  transition-delay: 200ms;
   min-width: 0;
   min-height: 0;
   -webkit-transition-property: all;
   -webkit-transition-timing-function: ease-in-out;
   -webkit-transition-duration: 200ms;
-  -webkit-transition-delay: 200ms;
   border-radius: 20px;
   padding: 30px;
 }

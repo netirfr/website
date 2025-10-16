@@ -89,7 +89,6 @@ export const PlasmicFaq__ArgProps = new Array<ArgPropType>(
 export type PlasmicFaq__OverridesType = {
   root?: Flex__<"div">;
   freeBox?: Flex__<"div">;
-  h1?: Flex__<"h1">;
   h5?: Flex__<"h5">;
   text?: Flex__<"div">;
 };
@@ -206,49 +205,32 @@ function PlasmicFaq__RenderFunc(props: {
           }
         }}
       >
-        <h1
-          data-plasmic-name={"h1"}
-          data-plasmic-override={overrides.h1}
+        <h5
+          data-plasmic-name={"h5"}
+          data-plasmic-override={overrides.h5}
           className={classNames(
             projectcss.all,
-            projectcss.h1,
+            projectcss.h5,
             projectcss.__wab_text,
-            sty.h1
+            sty.h5
           )}
         >
           <React.Fragment>
-            <React.Fragment>{""}</React.Fragment>
-            {
-              <h5
-                data-plasmic-name={"h5"}
-                data-plasmic-override={overrides.h5}
-                className={classNames(
-                  projectcss.all,
-                  projectcss.h5,
-                  projectcss.__wab_text,
-                  sty.h5
-                )}
-              >
-                <React.Fragment>
-                  {(() => {
-                    try {
-                      return $props.question;
-                    } catch (e) {
-                      if (
-                        e instanceof TypeError ||
-                        e?.plasmicType === "PlasmicUndefinedDataError"
-                      ) {
-                        return "Comment fonctionne NoBullshit Tech Engineers ?";
-                      }
-                      throw e;
-                    }
-                  })()}
-                </React.Fragment>
-              </h5>
-            }
-            <React.Fragment>{""}</React.Fragment>
+            {(() => {
+              try {
+                return $props.question;
+              } catch (e) {
+                if (
+                  e instanceof TypeError ||
+                  e?.plasmicType === "PlasmicUndefinedDataError"
+                ) {
+                  return "Comment fonctionne NoBullshit Tech Engineers ?";
+                }
+                throw e;
+              }
+            })()}
           </React.Fragment>
-        </h1>
+        </h5>
         {(() => {
           try {
             return $state.isOpen;
@@ -333,9 +315,8 @@ function PlasmicFaq__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "freeBox", "h1", "h5", "text"],
-  freeBox: ["freeBox", "h1", "h5"],
-  h1: ["h1", "h5"],
+  root: ["root", "freeBox", "h5", "text"],
+  freeBox: ["freeBox", "h5"],
   h5: ["h5"],
   text: ["text"]
 } as const;
@@ -345,7 +326,6 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   root: "div";
   freeBox: "div";
-  h1: "h1";
   h5: "h5";
   text: "div";
 };
@@ -413,7 +393,6 @@ export const PlasmicFaq = Object.assign(
   {
     // Helper components rendering sub-elements
     freeBox: makeNodeComponent("freeBox"),
-    h1: makeNodeComponent("h1"),
     h5: makeNodeComponent("h5"),
     text: makeNodeComponent("text"),
 

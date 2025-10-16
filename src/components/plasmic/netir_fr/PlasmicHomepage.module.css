@@ -434,6 +434,7 @@
     height: 100%;
     width: 60%;
     min-height: 0;
+    display: none;
   }
 }
 .confiance {
@@ -954,6 +955,233 @@
     max-width: 100%;
     min-width: 0;
     flex-shrink: 0;
+  }
+}
+.logosrow {
+  width: 100%;
+  height: 60px;
+  box-shadow: none;
+  position: relative;
+  left: auto;
+  top: auto;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-auto-rows: auto;
+  grid-auto-columns: 1fr;
+  grid-column-start: 1 !important;
+  grid-column-end: -1 !important;
+  display: none;
+  padding: 0px;
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .logosrow {
+    height: auto;
+    width: 100%;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-row-gap: 0px;
+    grid-column-gap: 10px;
+    grid-column-start: 1 !important;
+    grid-column-end: -1 !important;
+    display: grid;
+  }
+}
+.big {
+  object-fit: cover;
+  height: 100%;
+  min-height: 0;
+}
+.big > picture > img {
+  object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .big {
+    position: relative;
+    left: auto;
+    top: auto;
+    height: 50px;
+    width: auto;
+  }
+}
+.campingCarPark {
+  object-fit: contain;
+  height: 100%;
+  min-height: 0;
+}
+.campingCarPark > picture > img {
+  object-fit: contain;
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .campingCarPark {
+    position: relative;
+    left: auto;
+    top: auto;
+    width: auto;
+    height: 50px;
+  }
+}
+.captainvet {
+  object-fit: contain;
+  filter: invert(70%);
+  height: 100%;
+  min-height: 0;
+}
+.captainvet > picture > img {
+  object-fit: contain;
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .captainvet {
+    position: relative;
+    left: auto;
+    top: auto;
+    height: 50px;
+    width: auto;
+  }
+}
+.nbte {
+  object-fit: cover;
+  height: 100%;
+  min-height: 0;
+}
+.nbte > picture > img {
+  object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .nbte {
+    width: auto;
+    height: 50px;
+    object-fit: fill;
+    position: relative;
+    left: auto;
+    top: auto;
+  }
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .nbte > picture > img {
+    object-fit: fill;
+  }
+}
+.cloudiam {
+  object-fit: cover;
+  height: 100%;
+  min-height: 0;
+}
+.cloudiam > picture > img {
+  object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .cloudiam {
+    object-fit: fill;
+    position: relative;
+    left: auto;
+    top: auto;
+    height: 50px;
+    width: auto;
+  }
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .cloudiam > picture > img {
+    object-fit: fill;
+  }
+}
+.abcm {
+  object-fit: contain;
+  height: 100%;
+  min-height: 0;
+}
+.abcm > picture > img {
+  object-fit: contain;
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .abcm {
+    position: relative;
+    left: auto;
+    top: auto;
+    height: 50px;
+    width: auto;
+  }
+}
+.francenuage {
+  object-fit: contain;
+  object-position: 50% 200%;
+  height: 100%;
+  min-height: 0;
+}
+.francenuage > picture > img {
+  object-fit: contain;
+  object-position: 50% 200%;
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .francenuage {
+    object-fit: fill;
+    position: relative;
+    left: auto;
+    top: auto;
+    height: 50px;
+    width: auto;
+  }
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .francenuage > picture > img {
+    object-fit: fill;
+  }
+}
+.handipharm {
+  object-fit: contain;
+  height: 100%;
+  min-height: 0;
+}
+.handipharm > picture > img {
+  object-fit: contain;
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .handipharm {
+    height: 50px;
+    object-fit: fill;
+    position: relative;
+    left: auto;
+    top: auto;
+    width: auto;
+  }
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .handipharm > picture > img {
+    object-fit: fill;
+  }
+}
+.smala {
+  object-fit: contain;
+  height: 100%;
+  min-height: 0;
+}
+.smala > picture > img {
+  object-fit: contain;
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .smala {
+    position: relative;
+    left: auto;
+    top: auto;
+    height: 50px;
+    width: auto;
+  }
+}
+.pharmaconfort {
+  object-fit: contain;
+  height: 100%;
+  min-height: 0;
+}
+.pharmaconfort > picture > img {
+  object-fit: contain;
+}
+@media (min-width: 0px) and (max-width: 766px) {
+  .pharmaconfort {
+    position: relative;
+    left: auto;
+    top: auto;
+    height: 50px;
+    width: auto;
   }
 }
 .quatuor {

@@ -111,6 +111,15 @@ import phamaConfort0UPxsoChPv5Y from "./images/phamaConfort.png"; // plasmic-imp
 import campingCar2SNlYfWn9VXr from "./images/campingCar.png"; // plasmic-import: 2SNlYFWn9vXr/picture
 import abcmLogoNcQOw4GGoyu from "./images/abcmLogo.png"; // plasmic-import: ncQ_ow4gGoyu/picture
 import franceNuageEytvfVu1LwPc from "./images/franceNuage.png"; // plasmic-import: eytvfVU1lwPc/picture
+import image409UcZuXo8ATm from "./images/image40.svg"; // plasmic-import: 9-UCZuXo8aTm/picture
+import captainVetToneLogoLightV2SvgKJm2YZnmWjUo from "./images/captainVetToneLogoLightV2Svg.svg"; // plasmic-import: kJM2YZnmWjUO/picture
+import image36UQLoTnT5Lyj from "./images/image36.svg"; // plasmic-import: u_qLOTnT5Lyj/picture
+import image37I0Wn0XzV1VA from "./images/image37.svg"; // plasmic-import: i0wn0xz_v1vA/picture
+import image33PqlLrZxKaEo from "./images/image33.svg"; // plasmic-import: pqlLRZxKAEo-/picture
+import image35Kg9Ug8HS7BH9 from "./images/image35.svg"; // plasmic-import: KG9ug8hS7bH9/picture
+import image3020JMqtErSmj from "./images/image30.svg"; // plasmic-import: 2-0jMqtErSmj/picture
+import image34U1EJgn6NsBp from "./images/image34.svg"; // plasmic-import: u1-eJGN6NSBp/picture
+import image32ApPfhKzKTna3 from "./images/image32.svg"; // plasmic-import: APPfhKzKTna3/picture
 import freelance55PngTxxtE1HolTJ from "./images/freelance55Png.png"; // plasmic-import: TxxtE1Hol_tJ/picture
 import entreprise15PngQwvqs5FkPgmw from "./images/entreprise15Png.png"; // plasmic-import: qwvqs5fkPgmw/picture
 import mentor55PngEhbJjkajIFl6 from "./images/mentor55Png.png"; // plasmic-import: EHBJjkajIFl6/picture
@@ -173,6 +182,17 @@ export type PlasmicHomepage__OverridesType = {
   campingCar2?: Flex__<"div">;
   abcm3?: Flex__<"div">;
   franceNuage2?: Flex__<"div">;
+  logosrow?: Flex__<"div">;
+  big?: Flex__<typeof PlasmicImg__>;
+  campingCarPark?: Flex__<typeof PlasmicImg__>;
+  captainvet?: Flex__<typeof PlasmicImg__>;
+  nbte?: Flex__<typeof PlasmicImg__>;
+  cloudiam?: Flex__<typeof PlasmicImg__>;
+  abcm?: Flex__<typeof PlasmicImg__>;
+  francenuage?: Flex__<typeof PlasmicImg__>;
+  handipharm?: Flex__<typeof PlasmicImg__>;
+  smala?: Flex__<typeof PlasmicImg__>;
+  pharmaconfort?: Flex__<typeof PlasmicImg__>;
   quatuor?: Flex__<"div">;
   titre?: Flex__<"div">;
   persona?: Flex__<"div">;
@@ -1225,6 +1245,291 @@ function PlasmicHomepage__RenderFunc(props: {
                   );
                 })()}
               </div>
+              <div
+                data-plasmic-name={"logosrow"}
+                data-plasmic-override={overrides.logosrow}
+                className={classNames(projectcss.all, sty.logosrow)}
+              >
+                <PlasmicImg__
+                  data-plasmic-name={"big"}
+                  data-plasmic-override={overrides.big}
+                  alt={""}
+                  className={classNames(sty.big)}
+                  displayHeight={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "50px"
+                      : "100%"
+                  }
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"none"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "auto"
+                      : "auto"
+                  }
+                  loading={"lazy"}
+                  src={{
+                    src: logoBigXZpuT8Kgy8Eh,
+                    fullWidth: 500,
+                    fullHeight: 500,
+                    aspectRatio: undefined
+                  }}
+                />
+
+                <PlasmicImg__
+                  data-plasmic-name={"campingCarPark"}
+                  data-plasmic-override={overrides.campingCarPark}
+                  alt={""}
+                  className={classNames(sty.campingCarPark)}
+                  displayHeight={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "50px"
+                      : "100%"
+                  }
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"none"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "auto"
+                      : "auto"
+                  }
+                  loading={"lazy"}
+                  src={{
+                    src: image409UcZuXo8ATm,
+                    fullWidth: 485,
+                    fullHeight: 90,
+                    aspectRatio: 5.388889
+                  }}
+                />
+
+                <PlasmicImg__
+                  data-plasmic-name={"captainvet"}
+                  data-plasmic-override={overrides.captainvet}
+                  alt={""}
+                  className={classNames(sty.captainvet)}
+                  displayHeight={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "50px"
+                      : "100%"
+                  }
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"none"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "auto"
+                      : "auto"
+                  }
+                  loading={"lazy"}
+                  src={{
+                    src: captainVetToneLogoLightV2SvgKJm2YZnmWjUo,
+                    fullWidth: 180,
+                    fullHeight: 34,
+                    aspectRatio: 5.294118
+                  }}
+                />
+
+                <PlasmicImg__
+                  data-plasmic-name={"nbte"}
+                  data-plasmic-override={overrides.nbte}
+                  alt={""}
+                  className={classNames(sty.nbte)}
+                  displayHeight={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "50px"
+                      : "100%"
+                  }
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"none"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "auto"
+                      : "auto"
+                  }
+                  loading={"lazy"}
+                  src={{
+                    src: image36UQLoTnT5Lyj,
+                    fullWidth: 339,
+                    fullHeight: 91,
+                    aspectRatio: 3.725275
+                  }}
+                />
+
+                <PlasmicImg__
+                  data-plasmic-name={"cloudiam"}
+                  data-plasmic-override={overrides.cloudiam}
+                  alt={""}
+                  className={classNames(sty.cloudiam)}
+                  displayHeight={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "50px"
+                      : "100%"
+                  }
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"none"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "auto"
+                      : "auto"
+                  }
+                  loading={"lazy"}
+                  src={{
+                    src: image37I0Wn0XzV1VA,
+                    fullWidth: 401,
+                    fullHeight: 149,
+                    aspectRatio: 2.691275
+                  }}
+                />
+
+                <PlasmicImg__
+                  data-plasmic-name={"abcm"}
+                  data-plasmic-override={overrides.abcm}
+                  alt={""}
+                  className={classNames(sty.abcm)}
+                  displayHeight={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "50px"
+                      : "100%"
+                  }
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"none"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "auto"
+                      : "auto"
+                  }
+                  loading={"lazy"}
+                  src={{
+                    src: image33PqlLrZxKaEo,
+                    fullWidth: 379,
+                    fullHeight: 106,
+                    aspectRatio: 3.575472
+                  }}
+                />
+
+                <PlasmicImg__
+                  data-plasmic-name={"francenuage"}
+                  data-plasmic-override={overrides.francenuage}
+                  alt={""}
+                  className={classNames(sty.francenuage)}
+                  displayHeight={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "50px"
+                      : "100%"
+                  }
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"none"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "auto"
+                      : "auto"
+                  }
+                  loading={"lazy"}
+                  src={{
+                    src: image35Kg9Ug8HS7BH9,
+                    fullWidth: 413,
+                    fullHeight: 153,
+                    aspectRatio: 2.699346
+                  }}
+                />
+
+                <PlasmicImg__
+                  data-plasmic-name={"handipharm"}
+                  data-plasmic-override={overrides.handipharm}
+                  alt={""}
+                  className={classNames(sty.handipharm)}
+                  displayHeight={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "50px"
+                      : "100%"
+                  }
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"none"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "auto"
+                      : "auto"
+                  }
+                  loading={"lazy"}
+                  src={{
+                    src: image3020JMqtErSmj,
+                    fullWidth: 383,
+                    fullHeight: 154,
+                    aspectRatio: 2.487013
+                  }}
+                />
+
+                <PlasmicImg__
+                  data-plasmic-name={"smala"}
+                  data-plasmic-override={overrides.smala}
+                  alt={""}
+                  className={classNames(sty.smala)}
+                  displayHeight={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "50px"
+                      : "100%"
+                  }
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"none"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "auto"
+                      : "auto"
+                  }
+                  loading={"lazy"}
+                  src={{
+                    src: image34U1EJgn6NsBp,
+                    fullWidth: 199,
+                    fullHeight: 82,
+                    aspectRatio: 2.426829
+                  }}
+                />
+
+                <PlasmicImg__
+                  data-plasmic-name={"pharmaconfort"}
+                  data-plasmic-override={overrides.pharmaconfort}
+                  alt={""}
+                  className={classNames(sty.pharmaconfort)}
+                  displayHeight={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "50px"
+                      : "100%"
+                  }
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"none"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "auto"
+                      : "auto"
+                  }
+                  loading={"lazy"}
+                  src={{
+                    src: image32ApPfhKzKTna3,
+                    fullWidth: 284,
+                    fullHeight: 174,
+                    aspectRatio: 1.632184
+                  }}
+                />
+              </div>
             </div>
             <div
               data-plasmic-name={"quatuor"}
@@ -2037,6 +2342,17 @@ const PlasmicDescendants = {
     "campingCar2",
     "abcm3",
     "franceNuage2",
+    "logosrow",
+    "big",
+    "campingCarPark",
+    "captainvet",
+    "nbte",
+    "cloudiam",
+    "abcm",
+    "francenuage",
+    "handipharm",
+    "smala",
+    "pharmaconfort",
     "quatuor",
     "titre",
     "persona",
@@ -2085,6 +2401,17 @@ const PlasmicDescendants = {
     "campingCar2",
     "abcm3",
     "franceNuage2",
+    "logosrow",
+    "big",
+    "campingCarPark",
+    "captainvet",
+    "nbte",
+    "cloudiam",
+    "abcm",
+    "francenuage",
+    "handipharm",
+    "smala",
+    "pharmaconfort",
     "quatuor",
     "titre",
     "persona",
@@ -2182,7 +2509,18 @@ const PlasmicDescendants = {
     "pharmaConfort2",
     "campingCar2",
     "abcm3",
-    "franceNuage2"
+    "franceNuage2",
+    "logosrow",
+    "big",
+    "campingCarPark",
+    "captainvet",
+    "nbte",
+    "cloudiam",
+    "abcm",
+    "francenuage",
+    "handipharm",
+    "smala",
+    "pharmaconfort"
   ],
   titre6: ["titre6"],
   carousel: [
@@ -2228,6 +2566,29 @@ const PlasmicDescendants = {
   campingCar2: ["campingCar2"],
   abcm3: ["abcm3"],
   franceNuage2: ["franceNuage2"],
+  logosrow: [
+    "logosrow",
+    "big",
+    "campingCarPark",
+    "captainvet",
+    "nbte",
+    "cloudiam",
+    "abcm",
+    "francenuage",
+    "handipharm",
+    "smala",
+    "pharmaconfort"
+  ],
+  big: ["big"],
+  campingCarPark: ["campingCarPark"],
+  captainvet: ["captainvet"],
+  nbte: ["nbte"],
+  cloudiam: ["cloudiam"],
+  abcm: ["abcm"],
+  francenuage: ["francenuage"],
+  handipharm: ["handipharm"],
+  smala: ["smala"],
+  pharmaconfort: ["pharmaconfort"],
   quatuor: ["quatuor", "titre", "persona"],
   titre: ["titre"],
   persona: ["persona"],
@@ -2280,6 +2641,17 @@ type NodeDefaultElementType = {
   campingCar2: "div";
   abcm3: "div";
   franceNuage2: "div";
+  logosrow: "div";
+  big: typeof PlasmicImg__;
+  campingCarPark: typeof PlasmicImg__;
+  captainvet: typeof PlasmicImg__;
+  nbte: typeof PlasmicImg__;
+  cloudiam: typeof PlasmicImg__;
+  abcm: typeof PlasmicImg__;
+  francenuage: typeof PlasmicImg__;
+  handipharm: typeof PlasmicImg__;
+  smala: typeof PlasmicImg__;
+  pharmaconfort: typeof PlasmicImg__;
   quatuor: "div";
   titre: "div";
   persona: "div";
@@ -2390,6 +2762,17 @@ export const PlasmicHomepage = Object.assign(
     campingCar2: makeNodeComponent("campingCar2"),
     abcm3: makeNodeComponent("abcm3"),
     franceNuage2: makeNodeComponent("franceNuage2"),
+    logosrow: makeNodeComponent("logosrow"),
+    big: makeNodeComponent("big"),
+    campingCarPark: makeNodeComponent("campingCarPark"),
+    captainvet: makeNodeComponent("captainvet"),
+    nbte: makeNodeComponent("nbte"),
+    cloudiam: makeNodeComponent("cloudiam"),
+    abcm: makeNodeComponent("abcm"),
+    francenuage: makeNodeComponent("francenuage"),
+    handipharm: makeNodeComponent("handipharm"),
+    smala: makeNodeComponent("smala"),
+    pharmaconfort: makeNodeComponent("pharmaconfort"),
     quatuor: makeNodeComponent("quatuor"),
     titre: makeNodeComponent("titre"),
     persona: makeNodeComponent("persona"),

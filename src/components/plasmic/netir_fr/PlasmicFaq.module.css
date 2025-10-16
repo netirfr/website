@@ -32,15 +32,6 @@
   align-items: center;
   min-width: 0;
 }
-.h1 {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  text-align: left;
-  pointer-events: none;
-  user-select: none;
-  min-width: 0;
-}
 .svg__vW4Ik {
   object-fit: cover;
   color: #000000;
