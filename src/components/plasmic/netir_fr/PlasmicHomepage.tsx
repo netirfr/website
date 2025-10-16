@@ -66,12 +66,10 @@ import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: byb1-I0x_v8X
 import { SliderWrapper } from "@plasmicpkgs/react-slick";
 import { sliderHelpers as SliderWrapper_Helpers } from "@plasmicpkgs/react-slick";
 import CardWithBackground from "../../CardWithBackground"; // plasmic-import: zo9N-Lnk8_00/component
-import HomepageQuatuor from "../../HomepageQuatuor"; // plasmic-import: fOPPhGthRv7y/component
 import Besoin from "../../Besoin"; // plasmic-import: CZV8F0NS4iKj/component
 import Avantages from "../../Avantages"; // plasmic-import: I1cyDttPCrVx/component
 import Testimonial from "../../Testimonial"; // plasmic-import: dCyluW4eRMLq/component
 import Cta from "../../Cta"; // plasmic-import: FtcUsaQ-hIvC/component
-import HomepageInteret from "../../HomepageInteret"; // plasmic-import: JbGOPxR5Ca_f/component
 import Faq from "../../Faq"; // plasmic-import: wBbJjw0EbsaX/component
 import Footer from "../../Footer"; // plasmic-import: lPSQkcOmsQQw/component
 import { _useGlobalVariants } from "./plasmic"; // plasmic-import: oiQgZxfnSVj2maau7x1Bhf/projectModule
@@ -113,22 +111,10 @@ import phamaConfort0UPxsoChPv5Y from "./images/phamaConfort.png"; // plasmic-imp
 import campingCar2SNlYfWn9VXr from "./images/campingCar.png"; // plasmic-import: 2SNlYFWn9vXr/picture
 import abcmLogoNcQOw4GGoyu from "./images/abcmLogo.png"; // plasmic-import: ncQ_ow4gGoyu/picture
 import franceNuageEytvfVu1LwPc from "./images/franceNuage.png"; // plasmic-import: eytvfVU1lwPc/picture
-import image409UcZuXo8ATm from "./images/image40.svg"; // plasmic-import: 9-UCZuXo8aTm/picture
-import captainVetToneLogoLightV2SvgKJm2YZnmWjUo from "./images/captainVetToneLogoLightV2Svg.svg"; // plasmic-import: kJM2YZnmWjUO/picture
-import image36UQLoTnT5Lyj from "./images/image36.svg"; // plasmic-import: u_qLOTnT5Lyj/picture
-import image37I0Wn0XzV1VA from "./images/image37.svg"; // plasmic-import: i0wn0xz_v1vA/picture
-import image33PqlLrZxKaEo from "./images/image33.svg"; // plasmic-import: pqlLRZxKAEo-/picture
-import image35Kg9Ug8HS7BH9 from "./images/image35.svg"; // plasmic-import: KG9ug8hS7bH9/picture
-import image3020JMqtErSmj from "./images/image30.svg"; // plasmic-import: 2-0jMqtErSmj/picture
-import image34U1EJgn6NsBp from "./images/image34.svg"; // plasmic-import: u1-eJGN6NSBp/picture
-import image32ApPfhKzKTna3 from "./images/image32.svg"; // plasmic-import: APPfhKzKTna3/picture
 import freelance55PngTxxtE1HolTJ from "./images/freelance55Png.png"; // plasmic-import: TxxtE1Hol_tJ/picture
 import entreprise15PngQwvqs5FkPgmw from "./images/entreprise15Png.png"; // plasmic-import: qwvqs5fkPgmw/picture
 import mentor55PngEhbJjkajIFl6 from "./images/mentor55Png.png"; // plasmic-import: EHBJjkajIFl6/picture
 import apporteuraffaire55PngWGGKtOLdwD from "./images/apporteuraffaire55Png.png"; // plasmic-import: -w_gGKtOLdwD/picture
-import image6SS2WnLpCdpYf from "./images/image6.svg"; // plasmic-import: sS2WnLpCdpYF/picture
-import image76QDUamxkDcO7 from "./images/image7.svg"; // plasmic-import: 6qDUamxkDcO7/picture
-import image8Rv51LGbt66Ti from "./images/image8.svg"; // plasmic-import: Rv51LGbt66ti/picture
 import image11ChRPvgo2AJ from "./images/image11.svg"; // plasmic-import: CH-rPvgo-2aJ/picture
 import image124272Jd4WBDj9 from "./images/image12.svg"; // plasmic-import: 4272Jd4wBDj9/picture
 import image13Aa3G6IM4DpM from "./images/image13.svg"; // plasmic-import: aa3_g6iM4dpM/picture
@@ -140,10 +126,6 @@ import geminiGeneratedImageJ00L65J00L65J00L1PngBQcKg4PcBayL from "./images/gemin
 import geminiGeneratedImage8Nmavg8Nmavg8NmaPngFaQbk7IFwq from "./images/geminiGeneratedImage8Nmavg8Nmavg8NmaPng.png"; // plasmic-import: fa-qbk_7IFwq/picture
 import geminiGeneratedImageDghrcodghrcodghrPngKxSUpNaIbv from "./images/geminiGeneratedImageDghrcodghrcodghrPng.png"; // plasmic-import: kxS-UpNa-IBV/picture
 import geminiGeneratedImageDo8Lcjdo8Lcjdo8LPngNMbgxDyE5Ve from "./images/geminiGeneratedImageDo8Lcjdo8Lcjdo8LPng.png"; // plasmic-import: n-MbgxDyE5VE/picture
-import image102UooUOYdvp53 from "./images/image102.svg"; // plasmic-import: uoo_uOYdvp53/picture
-import image26ACh2YCXyo5C from "./images/image26.svg"; // plasmic-import: A_ch2yCXyo5C/picture
-import image272ZkKWo6MEt3L from "./images/image27.svg"; // plasmic-import: 2ZkKWo6MEt3l/picture
-import image29GyqIXypGserf from "./images/image29.svg"; // plasmic-import: gyqIXypGSERF/picture
 import geminiGeneratedImage8R11Yk8R11Yk8R11RemovebgPreviewPngBZ8T737YaQxk from "./images/geminiGeneratedImage8R11Yk8R11Yk8R11RemovebgPreviewPng.png"; // plasmic-import: bZ8t737YaQXK/picture
 import logoTextBlackColorBgWhite1500PngBSyZCbzPXsht from "./images/logoTextBlackColorBgWhite1500Png.png"; // plasmic-import: BSyZCbzPXsht/picture
 
@@ -191,25 +173,9 @@ export type PlasmicHomepage__OverridesType = {
   campingCar2?: Flex__<"div">;
   abcm3?: Flex__<"div">;
   franceNuage2?: Flex__<"div">;
-  logosrow?: Flex__<"div">;
-  big?: Flex__<typeof PlasmicImg__>;
-  campingCarPark?: Flex__<typeof PlasmicImg__>;
-  captainvet?: Flex__<typeof PlasmicImg__>;
-  nbte?: Flex__<typeof PlasmicImg__>;
-  cloudiam?: Flex__<typeof PlasmicImg__>;
-  abcm?: Flex__<typeof PlasmicImg__>;
-  francenuage?: Flex__<typeof PlasmicImg__>;
-  handipharm?: Flex__<typeof PlasmicImg__>;
-  smala?: Flex__<typeof PlasmicImg__>;
-  pharmaconfort?: Flex__<typeof PlasmicImg__>;
   quatuor?: Flex__<"div">;
   titre?: Flex__<"div">;
   persona?: Flex__<"div">;
-  old?: Flex__<"div">;
-  freelance?: Flex__<typeof HomepageQuatuor>;
-  entreprise?: Flex__<typeof HomepageQuatuor>;
-  mentor?: Flex__<typeof HomepageQuatuor>;
-  apporteurAffaire?: Flex__<typeof HomepageQuatuor>;
   besoin?: Flex__<"section">;
   advantages?: Flex__<"div">;
   titre3?: Flex__<"div">;
@@ -217,9 +183,6 @@ export type PlasmicHomepage__OverridesType = {
   titre4?: Flex__<"div">;
   testimonial?: Flex__<"div">;
   callToAction2?: Flex__<"div">;
-  callToAction1?: Flex__<"div">;
-  buttonButton4?: Flex__<typeof ButtonPrimary>;
-  sectionWhy?: Flex__<"section">;
   faq?: Flex__<"div">;
   titre7?: Flex__<"div">;
   questions?: Flex__<"div">;
@@ -329,12 +292,6 @@ function PlasmicHomepage__RenderFunc(props: {
         initFunc: ({ $props, $state, $queries, $ctx }) => undefined
       },
       {
-        path: "buttonButton4.color",
-        type: "private",
-        variableType: "text",
-        initFunc: ({ $props, $state, $queries, $ctx }) => undefined
-      },
-      {
         path: "buttonButton.type",
         type: "private",
         variableType: "text",
@@ -342,12 +299,6 @@ function PlasmicHomepage__RenderFunc(props: {
       },
       {
         path: "buttonButton2.type",
-        type: "private",
-        variableType: "text",
-        initFunc: ({ $props, $state, $queries, $ctx }) => undefined
-      },
-      {
-        path: "buttonButton4.type",
         type: "private",
         variableType: "text",
         initFunc: ({ $props, $state, $queries, $ctx }) => undefined
@@ -624,6 +575,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           "buttonButton2",
                           "color"
                         ])}
+                        destination={"netir.fr/sign-up"}
                         end={
                           <NIcons2Icon
                             className={classNames(
@@ -700,6 +652,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           "buttonButton6",
                           "color"
                         ])}
+                        destination={"#quatuor"}
                         end={
                           <NIcons2Icon
                             className={classNames(
@@ -1272,291 +1225,6 @@ function PlasmicHomepage__RenderFunc(props: {
                   );
                 })()}
               </div>
-              <div
-                data-plasmic-name={"logosrow"}
-                data-plasmic-override={overrides.logosrow}
-                className={classNames(projectcss.all, sty.logosrow)}
-              >
-                <PlasmicImg__
-                  data-plasmic-name={"big"}
-                  data-plasmic-override={overrides.big}
-                  alt={""}
-                  className={classNames(sty.big)}
-                  displayHeight={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "50px"
-                      : "100%"
-                  }
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"none"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "auto"
-                      : "auto"
-                  }
-                  loading={"lazy"}
-                  src={{
-                    src: logoBigXZpuT8Kgy8Eh,
-                    fullWidth: 500,
-                    fullHeight: 500,
-                    aspectRatio: undefined
-                  }}
-                />
-
-                <PlasmicImg__
-                  data-plasmic-name={"campingCarPark"}
-                  data-plasmic-override={overrides.campingCarPark}
-                  alt={""}
-                  className={classNames(sty.campingCarPark)}
-                  displayHeight={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "50px"
-                      : "100%"
-                  }
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"none"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "auto"
-                      : "auto"
-                  }
-                  loading={"lazy"}
-                  src={{
-                    src: image409UcZuXo8ATm,
-                    fullWidth: 485,
-                    fullHeight: 90,
-                    aspectRatio: 5.388889
-                  }}
-                />
-
-                <PlasmicImg__
-                  data-plasmic-name={"captainvet"}
-                  data-plasmic-override={overrides.captainvet}
-                  alt={""}
-                  className={classNames(sty.captainvet)}
-                  displayHeight={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "50px"
-                      : "100%"
-                  }
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"none"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "auto"
-                      : "auto"
-                  }
-                  loading={"lazy"}
-                  src={{
-                    src: captainVetToneLogoLightV2SvgKJm2YZnmWjUo,
-                    fullWidth: 180,
-                    fullHeight: 34,
-                    aspectRatio: 5.294118
-                  }}
-                />
-
-                <PlasmicImg__
-                  data-plasmic-name={"nbte"}
-                  data-plasmic-override={overrides.nbte}
-                  alt={""}
-                  className={classNames(sty.nbte)}
-                  displayHeight={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "50px"
-                      : "100%"
-                  }
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"none"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "auto"
-                      : "auto"
-                  }
-                  loading={"lazy"}
-                  src={{
-                    src: image36UQLoTnT5Lyj,
-                    fullWidth: 339,
-                    fullHeight: 91,
-                    aspectRatio: 3.725275
-                  }}
-                />
-
-                <PlasmicImg__
-                  data-plasmic-name={"cloudiam"}
-                  data-plasmic-override={overrides.cloudiam}
-                  alt={""}
-                  className={classNames(sty.cloudiam)}
-                  displayHeight={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "50px"
-                      : "100%"
-                  }
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"none"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "auto"
-                      : "auto"
-                  }
-                  loading={"lazy"}
-                  src={{
-                    src: image37I0Wn0XzV1VA,
-                    fullWidth: 401,
-                    fullHeight: 149,
-                    aspectRatio: 2.691275
-                  }}
-                />
-
-                <PlasmicImg__
-                  data-plasmic-name={"abcm"}
-                  data-plasmic-override={overrides.abcm}
-                  alt={""}
-                  className={classNames(sty.abcm)}
-                  displayHeight={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "50px"
-                      : "100%"
-                  }
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"none"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "auto"
-                      : "auto"
-                  }
-                  loading={"lazy"}
-                  src={{
-                    src: image33PqlLrZxKaEo,
-                    fullWidth: 379,
-                    fullHeight: 106,
-                    aspectRatio: 3.575472
-                  }}
-                />
-
-                <PlasmicImg__
-                  data-plasmic-name={"francenuage"}
-                  data-plasmic-override={overrides.francenuage}
-                  alt={""}
-                  className={classNames(sty.francenuage)}
-                  displayHeight={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "50px"
-                      : "100%"
-                  }
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"none"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "auto"
-                      : "auto"
-                  }
-                  loading={"lazy"}
-                  src={{
-                    src: image35Kg9Ug8HS7BH9,
-                    fullWidth: 413,
-                    fullHeight: 153,
-                    aspectRatio: 2.699346
-                  }}
-                />
-
-                <PlasmicImg__
-                  data-plasmic-name={"handipharm"}
-                  data-plasmic-override={overrides.handipharm}
-                  alt={""}
-                  className={classNames(sty.handipharm)}
-                  displayHeight={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "50px"
-                      : "100%"
-                  }
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"none"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "auto"
-                      : "auto"
-                  }
-                  loading={"lazy"}
-                  src={{
-                    src: image3020JMqtErSmj,
-                    fullWidth: 383,
-                    fullHeight: 154,
-                    aspectRatio: 2.487013
-                  }}
-                />
-
-                <PlasmicImg__
-                  data-plasmic-name={"smala"}
-                  data-plasmic-override={overrides.smala}
-                  alt={""}
-                  className={classNames(sty.smala)}
-                  displayHeight={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "50px"
-                      : "100%"
-                  }
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"none"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "auto"
-                      : "auto"
-                  }
-                  loading={"lazy"}
-                  src={{
-                    src: image34U1EJgn6NsBp,
-                    fullWidth: 199,
-                    fullHeight: 82,
-                    aspectRatio: 2.426829
-                  }}
-                />
-
-                <PlasmicImg__
-                  data-plasmic-name={"pharmaconfort"}
-                  data-plasmic-override={overrides.pharmaconfort}
-                  alt={""}
-                  className={classNames(sty.pharmaconfort)}
-                  displayHeight={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "50px"
-                      : "100%"
-                  }
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"none"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "auto"
-                      : "auto"
-                  }
-                  loading={"lazy"}
-                  src={{
-                    src: image32ApPfhKzKTna3,
-                    fullWidth: 284,
-                    fullHeight: 174,
-                    aspectRatio: 1.632184
-                  }}
-                />
-              </div>
             </div>
             <div
               data-plasmic-name={"quatuor"}
@@ -1602,7 +1270,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     sty.link__tqIqJ
                   )}
                   component={Link}
-                  href={`/freelance`}
+                  href={`/freelances`}
                   platform={"gatsby"}
                 >
                   <CardWithBackground
@@ -1629,7 +1297,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     sty.link__gtVmO
                   )}
                   component={Link}
-                  href={`/company`}
+                  href={`/entreprises`}
                   platform={"gatsby"}
                 >
                   <CardWithBackground
@@ -1683,7 +1351,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     sty.link__o8Lle
                   )}
                   component={Link}
-                  href={`/apporteur-daffaires`}
+                  href={`/apporteur-affaires`}
                   platform={"gatsby"}
                 >
                   <CardWithBackground
@@ -1703,88 +1371,6 @@ function PlasmicHomepage__RenderFunc(props: {
                     titre={"Apporteur d'affaire"}
                   />
                 </PlasmicLink__>
-              </div>
-              <div
-                data-plasmic-name={"old"}
-                data-plasmic-override={overrides.old}
-                className={classNames(projectcss.all, sty.old)}
-              >
-                <HomepageQuatuor
-                  data-plasmic-name={"freelance"}
-                  data-plasmic-override={overrides.freelance}
-                  className={classNames("__wab_instance", sty.freelance)}
-                  mobile={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? ["unnamedVariant"]
-                      : undefined
-                  }
-                />
-
-                <HomepageQuatuor
-                  data-plasmic-name={"entreprise"}
-                  data-plasmic-override={overrides.entreprise}
-                  className={classNames("__wab_instance", sty.entreprise)}
-                  description={
-                    "obtient des r\u00e9sultats d\u2019exception gr\u00e2ce \u00e0 des freelances qualifi\u00e9s et coach\u00e9s."
-                  }
-                  mobile={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? ["unnamedVariant"]
-                      : undefined
-                  }
-                  n={2}
-                  nom={"L\u2019entreprise"}
-                  vector={{
-                    src: image6SS2WnLpCdpYf,
-                    fullWidth: 46,
-                    fullHeight: 40,
-                    aspectRatio: 1.15
-                  }}
-                />
-
-                <HomepageQuatuor
-                  data-plasmic-name={"mentor"}
-                  data-plasmic-override={overrides.mentor}
-                  className={classNames("__wab_instance", sty.mentor)}
-                  description={
-                    "transmet son expertise aux freelances et tire une r\u00e9mun\u00e9ration de celle-ci."
-                  }
-                  mobile={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? ["unnamedVariant"]
-                      : undefined
-                  }
-                  n={3}
-                  nom={"Le mentor"}
-                  vector={{
-                    src: image76QDUamxkDcO7,
-                    fullWidth: 46,
-                    fullHeight: 40,
-                    aspectRatio: 1.15
-                  }}
-                />
-
-                <HomepageQuatuor
-                  data-plasmic-name={"apporteurAffaire"}
-                  data-plasmic-override={overrides.apporteurAffaire}
-                  className={classNames("__wab_instance", sty.apporteurAffaire)}
-                  description={
-                    "apporte des opportunit\u00e9s aux freelances, mentors et entreprises en touchant une commission sur chaque affaire conclue."
-                  }
-                  mobile={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? ["unnamedVariant"]
-                      : undefined
-                  }
-                  n={4}
-                  nom={"L\u2019apporteur d\u2019affaires"}
-                  vector={{
-                    src: image8Rv51LGbt66Ti,
-                    fullWidth: 46,
-                    fullHeight: 40,
-                    aspectRatio: 1.15
-                  }}
-                />
               </div>
             </div>
             <section
@@ -2181,7 +1767,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.link__q8Uxt
                     )}
                     component={Link}
-                    href={`/freelance`}
+                    href={`/freelances`}
                     platform={"gatsby"}
                   >
                     <Cta
@@ -2205,7 +1791,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.link__kgviD
                     )}
                     component={Link}
-                    href={`/company`}
+                    href={`/entreprises`}
                     platform={"gatsby"}
                   >
                     <Cta
@@ -2257,7 +1843,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.link___3ZTiK
                     )}
                     component={Link}
-                    href={`/apporteur-daffaires`}
+                    href={`/apporteur-affaires`}
                     platform={"gatsby"}
                   >
                     <Cta
@@ -2279,191 +1865,6 @@ function PlasmicHomepage__RenderFunc(props: {
                 </div>
               </div>
             </div>
-            <div
-              data-plasmic-name={"callToAction1"}
-              data-plasmic-override={overrides.callToAction1}
-              className={classNames(projectcss.all, sty.callToAction1)}
-            >
-              <div className={classNames(projectcss.all, sty.freeBox__loKx7)}>
-                <div className={classNames(projectcss.all, sty.freeBox__nu5Hl)}>
-                  <h2
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.h2,
-                      projectcss.__wab_text,
-                      sty.h2__xilJf
-                    )}
-                  >
-                    {"Pourquoi attendre ?\nRejoins Netir."}
-                  </h2>
-                  <ButtonPrimary
-                    data-plasmic-name={"buttonButton4"}
-                    data-plasmic-override={overrides.buttonButton4}
-                    className={classNames("__wab_instance", sty.buttonButton4)}
-                    color={generateStateValueProp($state, [
-                      "buttonButton4",
-                      "color"
-                    ])}
-                    end={
-                      <NIcons2Icon
-                        className={classNames(projectcss.all, sty.svg___7UmP)}
-                        role={"img"}
-                      />
-                    }
-                    iconEnd={true}
-                    label={
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__hYfm
-                        )}
-                      >
-                        {"Je rejoins Netir"}
-                      </div>
-                    }
-                    linkTo={`/sign-up`}
-                    onColorChange2={async (...eventArgs: any) => {
-                      generateStateOnChangeProp($state, [
-                        "buttonButton4",
-                        "color"
-                      ]).apply(null, eventArgs);
-
-                      if (
-                        eventArgs.length > 1 &&
-                        eventArgs[1] &&
-                        eventArgs[1]._plasmic_state_init_
-                      ) {
-                        return;
-                      }
-                    }}
-                    onTypeChange={async (...eventArgs: any) => {
-                      generateStateOnChangeProp($state, [
-                        "buttonButton4",
-                        "type"
-                      ]).apply(null, eventArgs);
-
-                      if (
-                        eventArgs.length > 1 &&
-                        eventArgs[1] &&
-                        eventArgs[1]._plasmic_state_init_
-                      ) {
-                        return;
-                      }
-                    }}
-                    type={generateStateValueProp($state, [
-                      "buttonButton4",
-                      "type"
-                    ])}
-                  />
-                </div>
-              </div>
-            </div>
-            <section
-              data-plasmic-name={"sectionWhy"}
-              data-plasmic-override={overrides.sectionWhy}
-              className={classNames(projectcss.all, sty.sectionWhy)}
-            >
-              <div className={classNames(projectcss.all, sty.freeBox__mXdtx)}>
-                <div className={classNames(projectcss.all, sty.freeBox__phiAo)}>
-                  <HomepageInteret
-                    className={classNames(
-                      "__wab_instance",
-                      sty.homepageInteret__yrc7O
-                    )}
-                    img={{
-                      src: image102UooUOYdvp53,
-                      fullWidth: 530,
-                      fullHeight: 647,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-                <HomepageInteret
-                  className={classNames(
-                    "__wab_instance",
-                    sty.homepageInteret___4NvG
-                  )}
-                  img={{
-                    src: image26ACh2YCXyo5C,
-                    fullWidth: 568,
-                    fullHeight: 648,
-                    aspectRatio: 0.876543
-                  }}
-                  mauve={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? []
-                      : undefined
-                  }
-                  objectif={"\u00c9vitez les mauvais castings."}
-                  qui={"Entreprise"}
-                  quoi1={
-                    "Marre de perdre du temps \u00e0 \u00e9plucher des centaines de profils ? Netir vous connecte directement avec les talents adapt\u00e9s \u00e0 vos besoins, sans passer des heures \u00e0 chercher."
-                  }
-                  quoi2={
-                    "Trop de paperasse \u00e0 g\u00e9rer ? Netir facilite la contractualisation et la facturation pendant que vous vous concentrez sur vos objectifs."
-                  }
-                  quoi3={
-                    "Difficile de trouver des talents fiables ? Collaborez avec des freelances coach\u00e9s par des mentors experts pour des projets r\u00e9ussis \u00e0 coup s\u00fbr."
-                  }
-                  vert={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? ["unnamedVariant"]
-                      : ["unnamedVariant"]
-                  }
-                />
-
-                <HomepageInteret
-                  className={classNames(
-                    "__wab_instance",
-                    sty.homepageInteret___9HpWj
-                  )}
-                  img={{
-                    src: image272ZkKWo6MEt3L,
-                    fullWidth: 542,
-                    fullHeight: 635,
-                    aspectRatio: 0.853543
-                  }}
-                  mauve={["unnamedVariant"]}
-                  objectif={"Arr\u00eate de te faire arnaquer !"}
-                  qui={"Freelance"}
-                  quoi1={
-                    "Tu gal\u00e8res \u00e0 trouver une mission ? Fais-toi accompagner par un mentor pour trouver des missions plus vite et booster rapidement ton TJM."
-                  }
-                  quoi2={
-                    "Marre des commissions exorbitantes ? Netir te pr\u00e9l\u00e8ve seulement 3% de commission, contre 10% \u00e0 15% sur les autres plateformes."
-                  }
-                  quoi3={
-                    "Trop de paperasse \u00e0 g\u00e9rer ? Gagne du temps gr\u00e2ce \u00e0 un support administratif et soit serein gr\u00e2ce \u00e0 notre pack s\u00e9curit\u00e9."
-                  }
-                />
-
-                <HomepageInteret
-                  className={classNames(
-                    "__wab_instance",
-                    sty.homepageInteret__lts0J
-                  )}
-                  img={{
-                    src: image29GyqIXypGserf,
-                    fullWidth: 545,
-                    fullHeight: 623,
-                    aspectRatio: 0.874799
-                  }}
-                  jaune={["unnamedVariant"]}
-                  objectif={"Mettez en relation, touchez une commission."}
-                  qui={"Apporteur d\u2019affaires"}
-                  quoi1={
-                    "Marre des commissions uniques ? Percevez une commission mensuelle tout au long de la mission entre le freelance et l\u2019entreprise."
-                  }
-                  quoi2={
-                    "Peur des impay\u00e9s ? Netir garantit que vous recevrez votre commission gr\u00e2ce \u00e0 un syst\u00e8me s\u00e9curis\u00e9."
-                  }
-                  quoi3={
-                    "Trop de mises en relation \u00e9parpill\u00e9es ? Centralisez vos mises en relation gr\u00e2ce \u00e0 une plateforme intuitive vous permettant de suivre vos mises en relation."
-                  }
-                />
-              </div>
-            </section>
             <div
               data-plasmic-name={"faq"}
               data-plasmic-override={overrides.faq}
@@ -2636,25 +2037,9 @@ const PlasmicDescendants = {
     "campingCar2",
     "abcm3",
     "franceNuage2",
-    "logosrow",
-    "big",
-    "campingCarPark",
-    "captainvet",
-    "nbte",
-    "cloudiam",
-    "abcm",
-    "francenuage",
-    "handipharm",
-    "smala",
-    "pharmaconfort",
     "quatuor",
     "titre",
     "persona",
-    "old",
-    "freelance",
-    "entreprise",
-    "mentor",
-    "apporteurAffaire",
     "besoin",
     "advantages",
     "titre3",
@@ -2662,9 +2047,6 @@ const PlasmicDescendants = {
     "titre4",
     "testimonial",
     "callToAction2",
-    "callToAction1",
-    "buttonButton4",
-    "sectionWhy",
     "faq",
     "titre7",
     "questions",
@@ -2703,25 +2085,9 @@ const PlasmicDescendants = {
     "campingCar2",
     "abcm3",
     "franceNuage2",
-    "logosrow",
-    "big",
-    "campingCarPark",
-    "captainvet",
-    "nbte",
-    "cloudiam",
-    "abcm",
-    "francenuage",
-    "handipharm",
-    "smala",
-    "pharmaconfort",
     "quatuor",
     "titre",
     "persona",
-    "old",
-    "freelance",
-    "entreprise",
-    "mentor",
-    "apporteurAffaire",
     "besoin",
     "advantages",
     "titre3",
@@ -2729,9 +2095,6 @@ const PlasmicDescendants = {
     "titre4",
     "testimonial",
     "callToAction2",
-    "callToAction1",
-    "buttonButton4",
-    "sectionWhy",
     "faq",
     "titre7",
     "questions",
@@ -2819,18 +2182,7 @@ const PlasmicDescendants = {
     "pharmaConfort2",
     "campingCar2",
     "abcm3",
-    "franceNuage2",
-    "logosrow",
-    "big",
-    "campingCarPark",
-    "captainvet",
-    "nbte",
-    "cloudiam",
-    "abcm",
-    "francenuage",
-    "handipharm",
-    "smala",
-    "pharmaconfort"
+    "franceNuage2"
   ],
   titre6: ["titre6"],
   carousel: [
@@ -2876,46 +2228,9 @@ const PlasmicDescendants = {
   campingCar2: ["campingCar2"],
   abcm3: ["abcm3"],
   franceNuage2: ["franceNuage2"],
-  logosrow: [
-    "logosrow",
-    "big",
-    "campingCarPark",
-    "captainvet",
-    "nbte",
-    "cloudiam",
-    "abcm",
-    "francenuage",
-    "handipharm",
-    "smala",
-    "pharmaconfort"
-  ],
-  big: ["big"],
-  campingCarPark: ["campingCarPark"],
-  captainvet: ["captainvet"],
-  nbte: ["nbte"],
-  cloudiam: ["cloudiam"],
-  abcm: ["abcm"],
-  francenuage: ["francenuage"],
-  handipharm: ["handipharm"],
-  smala: ["smala"],
-  pharmaconfort: ["pharmaconfort"],
-  quatuor: [
-    "quatuor",
-    "titre",
-    "persona",
-    "old",
-    "freelance",
-    "entreprise",
-    "mentor",
-    "apporteurAffaire"
-  ],
+  quatuor: ["quatuor", "titre", "persona"],
   titre: ["titre"],
   persona: ["persona"],
-  old: ["old", "freelance", "entreprise", "mentor", "apporteurAffaire"],
-  freelance: ["freelance"],
-  entreprise: ["entreprise"],
-  mentor: ["mentor"],
-  apporteurAffaire: ["apporteurAffaire"],
   besoin: ["besoin"],
   advantages: ["advantages", "titre3"],
   titre3: ["titre3"],
@@ -2923,9 +2238,6 @@ const PlasmicDescendants = {
   titre4: ["titre4"],
   testimonial: ["testimonial"],
   callToAction2: ["callToAction2"],
-  callToAction1: ["callToAction1", "buttonButton4"],
-  buttonButton4: ["buttonButton4"],
-  sectionWhy: ["sectionWhy"],
   faq: ["faq", "titre7", "questions", "illustration"],
   titre7: ["titre7"],
   questions: ["questions"],
@@ -2968,25 +2280,9 @@ type NodeDefaultElementType = {
   campingCar2: "div";
   abcm3: "div";
   franceNuage2: "div";
-  logosrow: "div";
-  big: typeof PlasmicImg__;
-  campingCarPark: typeof PlasmicImg__;
-  captainvet: typeof PlasmicImg__;
-  nbte: typeof PlasmicImg__;
-  cloudiam: typeof PlasmicImg__;
-  abcm: typeof PlasmicImg__;
-  francenuage: typeof PlasmicImg__;
-  handipharm: typeof PlasmicImg__;
-  smala: typeof PlasmicImg__;
-  pharmaconfort: typeof PlasmicImg__;
   quatuor: "div";
   titre: "div";
   persona: "div";
-  old: "div";
-  freelance: typeof HomepageQuatuor;
-  entreprise: typeof HomepageQuatuor;
-  mentor: typeof HomepageQuatuor;
-  apporteurAffaire: typeof HomepageQuatuor;
   besoin: "section";
   advantages: "div";
   titre3: "div";
@@ -2994,9 +2290,6 @@ type NodeDefaultElementType = {
   titre4: "div";
   testimonial: "div";
   callToAction2: "div";
-  callToAction1: "div";
-  buttonButton4: typeof ButtonPrimary;
-  sectionWhy: "section";
   faq: "div";
   titre7: "div";
   questions: "div";
@@ -3097,25 +2390,9 @@ export const PlasmicHomepage = Object.assign(
     campingCar2: makeNodeComponent("campingCar2"),
     abcm3: makeNodeComponent("abcm3"),
     franceNuage2: makeNodeComponent("franceNuage2"),
-    logosrow: makeNodeComponent("logosrow"),
-    big: makeNodeComponent("big"),
-    campingCarPark: makeNodeComponent("campingCarPark"),
-    captainvet: makeNodeComponent("captainvet"),
-    nbte: makeNodeComponent("nbte"),
-    cloudiam: makeNodeComponent("cloudiam"),
-    abcm: makeNodeComponent("abcm"),
-    francenuage: makeNodeComponent("francenuage"),
-    handipharm: makeNodeComponent("handipharm"),
-    smala: makeNodeComponent("smala"),
-    pharmaconfort: makeNodeComponent("pharmaconfort"),
     quatuor: makeNodeComponent("quatuor"),
     titre: makeNodeComponent("titre"),
     persona: makeNodeComponent("persona"),
-    old: makeNodeComponent("old"),
-    freelance: makeNodeComponent("freelance"),
-    entreprise: makeNodeComponent("entreprise"),
-    mentor: makeNodeComponent("mentor"),
-    apporteurAffaire: makeNodeComponent("apporteurAffaire"),
     besoin: makeNodeComponent("besoin"),
     advantages: makeNodeComponent("advantages"),
     titre3: makeNodeComponent("titre3"),
@@ -3123,9 +2400,6 @@ export const PlasmicHomepage = Object.assign(
     titre4: makeNodeComponent("titre4"),
     testimonial: makeNodeComponent("testimonial"),
     callToAction2: makeNodeComponent("callToAction2"),
-    callToAction1: makeNodeComponent("callToAction1"),
-    buttonButton4: makeNodeComponent("buttonButton4"),
-    sectionWhy: makeNodeComponent("sectionWhy"),
     faq: makeNodeComponent("faq"),
     titre7: makeNodeComponent("titre7"),
     questions: makeNodeComponent("questions"),

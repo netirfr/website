@@ -1194,20 +1194,6 @@
           "componentType": "component"
         },
         {
-          "id": "GSJJEjH5km94",
-          "name": "LandingEntreprise",
-          "type": "managed",
-          "projectId": "oiQgZxfnSVj2maau7x1Bhf",
-          "renderModuleFilePath": "plasmic/netir_fr/PlasmicLandingEntreprise.tsx",
-          "importSpec": {
-            "modulePath": "../pages/company.tsx"
-          },
-          "cssFilePath": "plasmic/netir_fr/PlasmicLandingEntreprise.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/company"
-        },
-        {
           "id": "CZV8F0NS4iKj",
           "name": "Besoin",
           "type": "managed",
@@ -2346,20 +2332,6 @@
           "componentType": "component"
         },
         {
-          "id": "nc5s0GMCuACv",
-          "name": "LandingFreelance",
-          "type": "managed",
-          "projectId": "oiQgZxfnSVj2maau7x1Bhf",
-          "renderModuleFilePath": "plasmic/netir_fr/PlasmicLandingFreelance.tsx",
-          "importSpec": {
-            "modulePath": "../pages/freelance.tsx"
-          },
-          "cssFilePath": "plasmic/netir_fr/PlasmicLandingFreelance.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/freelance"
-        },
-        {
           "id": "x1KjNaq7cQO0",
           "name": "LandingMentor",
           "type": "managed",
@@ -2394,7 +2366,7 @@
           "projectId": "oiQgZxfnSVj2maau7x1Bhf",
           "renderModuleFilePath": "plasmic/netir_fr/PlasmicLegalTermsOfServiceClients.tsx",
           "importSpec": {
-            "modulePath": "../pages/legal-3.tsx"
+            "modulePath": "../pages/conditions-generales/clients.tsx"
           },
           "cssFilePath": "plasmic/netir_fr/PlasmicLegalTermsOfServiceClients.module.css",
           "scheme": "blackbox",
@@ -2452,20 +2424,6 @@
           "cssFilePath": "plasmic/netir_fr/PlasmicFreelanceCartesFreelance.module.css",
           "scheme": "blackbox",
           "componentType": "component"
-        },
-        {
-          "id": "oJVGrb-jp5QU",
-          "name": "LandingApporteurDaffaire",
-          "type": "managed",
-          "projectId": "oiQgZxfnSVj2maau7x1Bhf",
-          "renderModuleFilePath": "plasmic/netir_fr/PlasmicLandingApporteurDaffaire.tsx",
-          "importSpec": {
-            "modulePath": "../pages/apporteur-daffaires.tsx"
-          },
-          "cssFilePath": "plasmic/netir_fr/PlasmicLandingApporteurDaffaire.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/apporteur-daffaires"
         },
         {
           "id": "3CrxnqpAup0w",
@@ -2610,6 +2568,48 @@
           "cssFilePath": "plasmic/netir_fr/PlasmicCardWithBackground.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "GSJJEjH5km94",
+          "name": "LandingCompanies",
+          "type": "managed",
+          "projectId": "oiQgZxfnSVj2maau7x1Bhf",
+          "renderModuleFilePath": "plasmic/netir_fr/PlasmicLandingCompanies.tsx",
+          "importSpec": {
+            "modulePath": "../pages/entreprises.tsx"
+          },
+          "cssFilePath": "plasmic/netir_fr/PlasmicLandingCompanies.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/entreprises"
+        },
+        {
+          "id": "nc5s0GMCuACv",
+          "name": "LandingFreelances",
+          "type": "managed",
+          "projectId": "oiQgZxfnSVj2maau7x1Bhf",
+          "renderModuleFilePath": "plasmic/netir_fr/PlasmicLandingFreelances.tsx",
+          "importSpec": {
+            "modulePath": "../pages/freelances.tsx"
+          },
+          "cssFilePath": "plasmic/netir_fr/PlasmicLandingFreelances.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/freelances"
+        },
+        {
+          "id": "oJVGrb-jp5QU",
+          "name": "LandingApporteurDaffaires",
+          "type": "managed",
+          "projectId": "oiQgZxfnSVj2maau7x1Bhf",
+          "renderModuleFilePath": "plasmic/netir_fr/PlasmicLandingApporteurDaffaires.tsx",
+          "importSpec": {
+            "modulePath": "../pages/apporteur-affaires.tsx"
+          },
+          "cssFilePath": "plasmic/netir_fr/PlasmicLandingApporteurDaffaires.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/apporteur-affaires"
         }
       ],
       "icons": [

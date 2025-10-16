@@ -298,7 +298,7 @@ function PlasmicSiteHeader__RenderFunc(props: {
             )
           })}
           content={"Entreprise"}
-          destination={`/company`}
+          destination={`/entreprises`}
         />
 
         <NavNavLink
@@ -310,7 +310,7 @@ function PlasmicSiteHeader__RenderFunc(props: {
             )
           })}
           content={"Freelance"}
-          destination={`/freelance`}
+          destination={`/freelances`}
         />
 
         <NavNavLink
@@ -334,7 +334,7 @@ function PlasmicSiteHeader__RenderFunc(props: {
             )
           })}
           content={"Apporteur d'affaire"}
-          destination={`/apporteur-daffaires`}
+          destination={`/apporteur-affaires`}
         />
 
         <NavNavLink

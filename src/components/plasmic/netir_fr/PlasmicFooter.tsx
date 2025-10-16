@@ -225,6 +225,7 @@ function PlasmicFooter__RenderFunc(props: {
             component={Link}
             href={"https://status.netir.fr/"}
             platform={"gatsby"}
+            target={"_blank"}
           >
             {"Page de statut"}
           </PlasmicLink__>
@@ -271,6 +272,7 @@ function PlasmicFooter__RenderFunc(props: {
           component={Link}
           href={"mailto:contact@netir.com"}
           platform={"gatsby"}
+          target={"_blank"}
         >
           <React.Fragment>
             <React.Fragment>

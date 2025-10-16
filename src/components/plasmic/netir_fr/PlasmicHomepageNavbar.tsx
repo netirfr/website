@@ -319,7 +319,7 @@ function PlasmicHomepageNavbar__RenderFunc(props: {
 
           $steps["goToWipLandingEntreprise"] = true
             ? (() => {
-                const actionArgs = { destination: `/company` };
+                const actionArgs = { destination: `/entreprises` };
                 return (({ destination }) => {
                   if (
                     typeof destination === "string" &&
@@ -346,7 +346,7 @@ function PlasmicHomepageNavbar__RenderFunc(props: {
       >
         <HomepageNavlink
           className={classNames("__wab_instance", sty.homepageNavlink__j4QwU)}
-          destination={`/company`}
+          destination={`/entreprises`}
         >
           <div
             className={classNames(
@@ -366,7 +366,7 @@ function PlasmicHomepageNavbar__RenderFunc(props: {
 
           $steps["goToWipLandingFreelance"] = true
             ? (() => {
-                const actionArgs = { destination: `/freelance` };
+                const actionArgs = { destination: `/freelances` };
                 return (({ destination }) => {
                   if (
                     typeof destination === "string" &&
@@ -393,7 +393,7 @@ function PlasmicHomepageNavbar__RenderFunc(props: {
       >
         <HomepageNavlink
           className={classNames("__wab_instance", sty.homepageNavlink__exGv1)}
-          destination={`/freelance`}
+          destination={`/freelances`}
         >
           <div
             className={classNames(
@@ -460,7 +460,7 @@ function PlasmicHomepageNavbar__RenderFunc(props: {
 
           $steps["goToWipLandingApporteurDaffaire"] = true
             ? (() => {
-                const actionArgs = { destination: `/apporteur-daffaires` };
+                const actionArgs = { destination: `/apporteur-affaires` };
                 return (({ destination }) => {
                   if (
                     typeof destination === "string" &&
@@ -487,7 +487,7 @@ function PlasmicHomepageNavbar__RenderFunc(props: {
       >
         <HomepageNavlink
           className={classNames("__wab_instance", sty.homepageNavlink__mIAu)}
-          destination={`/apporteur-daffaires`}
+          destination={`/apporteur-affaires`}
         >
           <div
             className={classNames(

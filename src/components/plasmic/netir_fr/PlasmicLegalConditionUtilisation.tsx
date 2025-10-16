@@ -471,7 +471,7 @@ function PlasmicLegalConditionUtilisation__RenderFunc(props: {
                               sty.link__ibwVy
                             )}
                             component={Link}
-                            href={`/legal-3`}
+                            href={`/conditions-generales/clients`}
                             platform={"gatsby"}
                           >
                             {
@@ -802,7 +802,7 @@ function PlasmicLegalConditionUtilisation__RenderFunc(props: {
                             sty.link__x0MWb
                           )}
                           component={Link}
-                          href={`/legal-3`}
+                          href={`/conditions-generales/clients`}
                           platform={"gatsby"}
                         >
                           {"http://netir.fr/terms-of-service-clients"}
