@@ -65,7 +65,7 @@ import SiteHeader from "../../SiteHeader"; // plasmic-import: Vg4NgSIGKm96/compo
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: byb1-I0x_v8X/component
 import { SliderWrapper } from "@plasmicpkgs/react-slick";
 import { sliderHelpers as SliderWrapper_Helpers } from "@plasmicpkgs/react-slick";
-import CardWithBackground2 from "../../CardWithBackground2"; // plasmic-import: zo9N-Lnk8_00/component
+import CardWithBackground from "../../CardWithBackground"; // plasmic-import: zo9N-Lnk8_00/component
 import HomepageQuatuor from "../../HomepageQuatuor"; // plasmic-import: fOPPhGthRv7y/component
 import Besoin from "../../Besoin"; // plasmic-import: CZV8F0NS4iKj/component
 import Avantages from "../../Avantages"; // plasmic-import: I1cyDttPCrVx/component
@@ -201,17 +201,6 @@ export type PlasmicHomepage__OverridesType = {
   handipharm?: Flex__<typeof PlasmicImg__>;
   smala?: Flex__<typeof PlasmicImg__>;
   pharmaconfort?: Flex__<typeof PlasmicImg__>;
-  sliderCarousel?: Flex__<typeof SliderWrapper>;
-  campingCarPark2?: Flex__<typeof PlasmicImg__>;
-  big2?: Flex__<typeof PlasmicImg__>;
-  captainvet2?: Flex__<typeof PlasmicImg__>;
-  cloudiam2?: Flex__<typeof PlasmicImg__>;
-  nbte2?: Flex__<typeof PlasmicImg__>;
-  francenuage2?: Flex__<typeof PlasmicImg__>;
-  abcm2?: Flex__<typeof PlasmicImg__>;
-  handipharm2?: Flex__<typeof PlasmicImg__>;
-  smala2?: Flex__<typeof PlasmicImg__>;
-  pharmaconfort2?: Flex__<typeof PlasmicImg__>;
   quatuor?: Flex__<"div">;
   titre?: Flex__<"div">;
   persona?: Flex__<"div">;
@@ -361,15 +350,6 @@ function PlasmicHomepage__RenderFunc(props: {
         type: "private",
         variableType: "text",
         initFunc: ({ $props, $state, $queries, $ctx }) => undefined
-      },
-      {
-        path: "sliderCarousel.currentSlide",
-        type: "private",
-        variableType: "number",
-        initFunc: ({ $props, $state, $queries, $ctx }) => 0,
-
-        refName: "sliderCarousel",
-        onMutate: generateOnMutateForSpec("currentSlide", SliderWrapper_Helpers)
       },
       {
         path: "sliderCarousel4.currentSlide",
@@ -1569,324 +1549,6 @@ function PlasmicHomepage__RenderFunc(props: {
                   }}
                 />
               </div>
-              {(() => {
-                const child$Props = {
-                  arrows: false,
-                  autoplay: true,
-                  autoplaySpeed: 10,
-                  beforeChange: async (...eventArgs: any) => {
-                    generateStateOnChangePropForCodeComponents(
-                      $state,
-                      "currentSlide",
-                      ["sliderCarousel", "currentSlide"],
-                      SliderWrapper_Helpers
-                    ).apply(null, eventArgs);
-                  },
-                  centerMode: true,
-                  centerPadding: "10",
-                  className: classNames("__wab_instance", sty.sliderCarousel),
-                  dots: false,
-                  infinite: true,
-                  initialSlide: generateStateValueProp($state, [
-                    "sliderCarousel",
-                    "currentSlide"
-                  ]),
-                  pauseOnHover: false,
-                  ref: ref => {
-                    $refs["sliderCarousel"] = ref;
-                  },
-                  rows: 1,
-                  sliderScopeClassName: sty["sliderCarousel__slider"],
-                  slidesPerRow: 5,
-                  speed: 20000,
-                  touchThreshold: 2,
-                  useCSS: true,
-                  useTransform: true,
-                  variableWidth: false,
-                  vertical: false
-                };
-                initializeCodeComponentStates(
-                  $state,
-                  [
-                    {
-                      name: "currentSlide",
-                      plasmicStateName: "sliderCarousel.currentSlide"
-                    }
-                  ],
-                  [],
-                  SliderWrapper_Helpers ?? {},
-                  child$Props
-                );
-
-                return (
-                  <SliderWrapper
-                    data-plasmic-name={"sliderCarousel"}
-                    data-plasmic-override={overrides.sliderCarousel}
-                    {...child$Props}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        sty.freeBox___5OmJc
-                      )}
-                    >
-                      <PlasmicImg__
-                        data-plasmic-name={"campingCarPark2"}
-                        data-plasmic-override={overrides.campingCarPark2}
-                        alt={""}
-                        className={classNames(sty.campingCarPark2)}
-                        displayHeight={"60px"}
-                        displayMaxHeight={"none"}
-                        displayMaxWidth={"none"}
-                        displayMinHeight={"0"}
-                        displayMinWidth={"0"}
-                        displayWidth={"auto"}
-                        loading={"lazy"}
-                        src={{
-                          src: image409UcZuXo8ATm,
-                          fullWidth: 485,
-                          fullHeight: 90,
-                          aspectRatio: 5.388889
-                        }}
-                      />
-                    </div>
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__f87Z)}
-                    >
-                      <PlasmicImg__
-                        data-plasmic-name={"big2"}
-                        data-plasmic-override={overrides.big2}
-                        alt={""}
-                        className={classNames(sty.big2)}
-                        displayHeight={"60px"}
-                        displayMaxHeight={"none"}
-                        displayMaxWidth={"none"}
-                        displayMinHeight={"0"}
-                        displayMinWidth={"0"}
-                        displayWidth={"auto"}
-                        loading={"lazy"}
-                        src={{
-                          src: logoBigXZpuT8Kgy8Eh,
-                          fullWidth: 500,
-                          fullHeight: 500,
-                          aspectRatio: undefined
-                        }}
-                      />
-                    </div>
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__oGRvm)}
-                    >
-                      <PlasmicImg__
-                        data-plasmic-name={"captainvet2"}
-                        data-plasmic-override={overrides.captainvet2}
-                        alt={""}
-                        className={classNames(sty.captainvet2)}
-                        displayHeight={"60px"}
-                        displayMaxHeight={"none"}
-                        displayMaxWidth={"none"}
-                        displayMinHeight={"0"}
-                        displayMinWidth={"0"}
-                        displayWidth={"auto"}
-                        loading={"lazy"}
-                        src={{
-                          src: captainVetToneLogoLightV2SvgKJm2YZnmWjUo,
-                          fullWidth: 180,
-                          fullHeight: 34,
-                          aspectRatio: 5.294118
-                        }}
-                      />
-                    </div>
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__pjuy3)}
-                    >
-                      <PlasmicImg__
-                        data-plasmic-name={"cloudiam2"}
-                        data-plasmic-override={overrides.cloudiam2}
-                        alt={""}
-                        className={classNames(sty.cloudiam2)}
-                        displayHeight={"60px"}
-                        displayMaxHeight={"none"}
-                        displayMaxWidth={"none"}
-                        displayMinHeight={"0"}
-                        displayMinWidth={"0"}
-                        displayWidth={"auto"}
-                        loading={"lazy"}
-                        src={{
-                          src: image37I0Wn0XzV1VA,
-                          fullWidth: 401,
-                          fullHeight: 149,
-                          aspectRatio: 2.691275
-                        }}
-                      />
-                    </div>
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__xs8Ze)}
-                    >
-                      <PlasmicImg__
-                        data-plasmic-name={"nbte2"}
-                        data-plasmic-override={overrides.nbte2}
-                        alt={""}
-                        className={classNames(sty.nbte2)}
-                        displayHeight={
-                          hasVariant(globalVariants, "screen", "mobileOnly")
-                            ? "92px"
-                            : "60px"
-                        }
-                        displayMaxHeight={"none"}
-                        displayMaxWidth={"none"}
-                        displayMinHeight={"0"}
-                        displayMinWidth={"0"}
-                        displayWidth={
-                          hasVariant(globalVariants, "screen", "mobileOnly")
-                            ? "47%"
-                            : "auto"
-                        }
-                        loading={"lazy"}
-                        src={{
-                          src: image36UQLoTnT5Lyj,
-                          fullWidth: 339,
-                          fullHeight: 91,
-                          aspectRatio: 3.725275
-                        }}
-                      />
-                    </div>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        sty.freeBox___2ZSlq
-                      )}
-                    >
-                      <PlasmicImg__
-                        data-plasmic-name={"francenuage2"}
-                        data-plasmic-override={overrides.francenuage2}
-                        alt={""}
-                        className={classNames(sty.francenuage2)}
-                        displayHeight={"60px"}
-                        displayMaxHeight={"none"}
-                        displayMaxWidth={"none"}
-                        displayMinHeight={"0"}
-                        displayMinWidth={"0"}
-                        displayWidth={"auto"}
-                        loading={"lazy"}
-                        src={{
-                          src: image35Kg9Ug8HS7BH9,
-                          fullWidth: 413,
-                          fullHeight: 153,
-                          aspectRatio: 2.699346
-                        }}
-                      />
-                    </div>
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox___3Vjw)}
-                    >
-                      <PlasmicImg__
-                        data-plasmic-name={"abcm2"}
-                        data-plasmic-override={overrides.abcm2}
-                        alt={""}
-                        className={classNames(sty.abcm2)}
-                        displayHeight={"60px"}
-                        displayMaxHeight={"none"}
-                        displayMaxWidth={"none"}
-                        displayMinHeight={"0"}
-                        displayMinWidth={"0"}
-                        displayWidth={
-                          hasVariant(globalVariants, "screen", "mobileOnly")
-                            ? "23.08%"
-                            : "auto"
-                        }
-                        loading={"lazy"}
-                        src={{
-                          src: image33PqlLrZxKaEo,
-                          fullWidth: 379,
-                          fullHeight: 106,
-                          aspectRatio: 3.575472
-                        }}
-                      />
-                    </div>
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__z8Ndk)}
-                    >
-                      <PlasmicImg__
-                        data-plasmic-name={"handipharm2"}
-                        data-plasmic-override={overrides.handipharm2}
-                        alt={""}
-                        className={classNames(sty.handipharm2)}
-                        displayHeight={
-                          hasVariant(globalVariants, "screen", "mobileOnly")
-                            ? "92px"
-                            : "60px"
-                        }
-                        displayMaxHeight={"none"}
-                        displayMaxWidth={"none"}
-                        displayMinHeight={"0"}
-                        displayMinWidth={"0"}
-                        displayWidth={
-                          hasVariant(globalVariants, "screen", "mobileOnly")
-                            ? "37.61%"
-                            : "auto"
-                        }
-                        loading={"lazy"}
-                        src={{
-                          src: image3020JMqtErSmj,
-                          fullWidth: 383,
-                          fullHeight: 154,
-                          aspectRatio: 2.487013
-                        }}
-                      />
-                    </div>
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__ev8A3)}
-                    >
-                      <PlasmicImg__
-                        data-plasmic-name={"smala2"}
-                        data-plasmic-override={overrides.smala2}
-                        alt={""}
-                        className={classNames(sty.smala2)}
-                        displayHeight={"60px"}
-                        displayMaxHeight={"none"}
-                        displayMaxWidth={"none"}
-                        displayMinHeight={"0"}
-                        displayMinWidth={"0"}
-                        displayWidth={"auto"}
-                        loading={"lazy"}
-                        src={{
-                          src: image34U1EJgn6NsBp,
-                          fullWidth: 199,
-                          fullHeight: 82,
-                          aspectRatio: 2.426829
-                        }}
-                      />
-                    </div>
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__lJFj3)}
-                    >
-                      <PlasmicImg__
-                        data-plasmic-name={"pharmaconfort2"}
-                        data-plasmic-override={overrides.pharmaconfort2}
-                        alt={""}
-                        className={classNames(sty.pharmaconfort2)}
-                        displayHeight={"60px"}
-                        displayMaxHeight={"none"}
-                        displayMaxWidth={"none"}
-                        displayMinHeight={"0"}
-                        displayMinWidth={"0"}
-                        displayWidth={
-                          hasVariant(globalVariants, "screen", "mobileOnly")
-                            ? "30%"
-                            : "auto"
-                        }
-                        loading={"lazy"}
-                        src={{
-                          src: image32ApPfhKzKTna3,
-                          fullWidth: 284,
-                          fullHeight: 174,
-                          aspectRatio: 1.632184
-                        }}
-                      />
-                    </div>
-                  </SliderWrapper>
-                );
-              })()}
             </div>
             <div
               data-plasmic-name={"quatuor"}
@@ -1935,7 +1597,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   href={`/freelance`}
                   platform={"gatsby"}
                 >
-                  <CardWithBackground2
+                  <CardWithBackground
                     backgroundimage={{
                       src: freelance55PngTxxtE1HolTJ,
                       fullWidth: 1210,
@@ -1944,7 +1606,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     }}
                     className={classNames(
                       "__wab_instance",
-                      sty.cardWithBackground2__zsbxV
+                      sty.cardWithBackground__zsbxV
                     )}
                     description={
                       "Tu n'es plus seul. Trouve des missions stimulantes, monte en comp\u00e9tence avec ton mentor et garde 97% de ce que tu gagnes."
@@ -1962,7 +1624,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   href={`/company`}
                   platform={"gatsby"}
                 >
-                  <CardWithBackground2
+                  <CardWithBackground
                     backgroundimage={{
                       src: entreprise15PngQwvqs5FkPgmw,
                       fullWidth: 1328,
@@ -1971,7 +1633,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     }}
                     className={classNames(
                       "__wab_instance",
-                      sty.cardWithBackground2__wlT9J
+                      sty.cardWithBackground__wlT9J
                     )}
                     description={
                       "Arr\u00eate de recruter \u00e0 l'aveugle. Acc\u00e8de \u00e0 des freelances ultra-qualifi\u00e9s, coach\u00e9s en continu par des experts pour des r\u00e9sultats optimis\u00e9s."
@@ -1989,7 +1651,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   href={`/mentor`}
                   platform={"gatsby"}
                 >
-                  <CardWithBackground2
+                  <CardWithBackground
                     backgroundimage={{
                       src: mentor55PngEhbJjkajIFl6,
                       fullWidth: 1210,
@@ -1998,7 +1660,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     }}
                     className={classNames(
                       "__wab_instance",
-                      sty.cardWithBackground2__gdDu3
+                      sty.cardWithBackground__gdDu3
                     )}
                     description={
                       "Transmets ton savoir. Deviens le coach de la nouvelle g\u00e9n\u00e9ration freelance, mon\u00e9tise ton expertise et g\u00e9n\u00e8re un revenu compl\u00e9mentaire."
@@ -2016,7 +1678,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   href={`/apporteur-daffaires`}
                   platform={"gatsby"}
                 >
-                  <CardWithBackground2
+                  <CardWithBackground
                     backgroundimage={{
                       src: apporteuraffaire55PngWGGKtOLdwD,
                       fullWidth: 1132,
@@ -2025,7 +1687,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     }}
                     className={classNames(
                       "__wab_instance",
-                      sty.cardWithBackground2___54OT
+                      sty.cardWithBackground___54OT
                     )}
                     description={
                       "Mon\u00e9tise ton r\u00e9seau. Recommande un Freelance ou une Entreprise et touche ta commission sur la mise en relation. On te simplifie le processus."
@@ -2998,17 +2660,6 @@ const PlasmicDescendants = {
     "handipharm",
     "smala",
     "pharmaconfort",
-    "sliderCarousel",
-    "campingCarPark2",
-    "big2",
-    "captainvet2",
-    "cloudiam2",
-    "nbte2",
-    "francenuage2",
-    "abcm2",
-    "handipharm2",
-    "smala2",
-    "pharmaconfort2",
     "quatuor",
     "titre",
     "persona",
@@ -3075,17 +2726,6 @@ const PlasmicDescendants = {
     "handipharm",
     "smala",
     "pharmaconfort",
-    "sliderCarousel",
-    "campingCarPark2",
-    "big2",
-    "captainvet2",
-    "cloudiam2",
-    "nbte2",
-    "francenuage2",
-    "abcm2",
-    "handipharm2",
-    "smala2",
-    "pharmaconfort2",
     "quatuor",
     "titre",
     "persona",
@@ -3197,18 +2837,7 @@ const PlasmicDescendants = {
     "francenuage",
     "handipharm",
     "smala",
-    "pharmaconfort",
-    "sliderCarousel",
-    "campingCarPark2",
-    "big2",
-    "captainvet2",
-    "cloudiam2",
-    "nbte2",
-    "francenuage2",
-    "abcm2",
-    "handipharm2",
-    "smala2",
-    "pharmaconfort2"
+    "pharmaconfort"
   ],
   titre6: ["titre6"],
   carousel: [
@@ -3277,29 +2906,6 @@ const PlasmicDescendants = {
   handipharm: ["handipharm"],
   smala: ["smala"],
   pharmaconfort: ["pharmaconfort"],
-  sliderCarousel: [
-    "sliderCarousel",
-    "campingCarPark2",
-    "big2",
-    "captainvet2",
-    "cloudiam2",
-    "nbte2",
-    "francenuage2",
-    "abcm2",
-    "handipharm2",
-    "smala2",
-    "pharmaconfort2"
-  ],
-  campingCarPark2: ["campingCarPark2"],
-  big2: ["big2"],
-  captainvet2: ["captainvet2"],
-  cloudiam2: ["cloudiam2"],
-  nbte2: ["nbte2"],
-  francenuage2: ["francenuage2"],
-  abcm2: ["abcm2"],
-  handipharm2: ["handipharm2"],
-  smala2: ["smala2"],
-  pharmaconfort2: ["pharmaconfort2"],
   quatuor: [
     "quatuor",
     "titre",
@@ -3379,17 +2985,6 @@ type NodeDefaultElementType = {
   handipharm: typeof PlasmicImg__;
   smala: typeof PlasmicImg__;
   pharmaconfort: typeof PlasmicImg__;
-  sliderCarousel: typeof SliderWrapper;
-  campingCarPark2: typeof PlasmicImg__;
-  big2: typeof PlasmicImg__;
-  captainvet2: typeof PlasmicImg__;
-  cloudiam2: typeof PlasmicImg__;
-  nbte2: typeof PlasmicImg__;
-  francenuage2: typeof PlasmicImg__;
-  abcm2: typeof PlasmicImg__;
-  handipharm2: typeof PlasmicImg__;
-  smala2: typeof PlasmicImg__;
-  pharmaconfort2: typeof PlasmicImg__;
   quatuor: "div";
   titre: "div";
   persona: "div";
@@ -3518,17 +3113,6 @@ export const PlasmicHomepage = Object.assign(
     handipharm: makeNodeComponent("handipharm"),
     smala: makeNodeComponent("smala"),
     pharmaconfort: makeNodeComponent("pharmaconfort"),
-    sliderCarousel: makeNodeComponent("sliderCarousel"),
-    campingCarPark2: makeNodeComponent("campingCarPark2"),
-    big2: makeNodeComponent("big2"),
-    captainvet2: makeNodeComponent("captainvet2"),
-    cloudiam2: makeNodeComponent("cloudiam2"),
-    nbte2: makeNodeComponent("nbte2"),
-    francenuage2: makeNodeComponent("francenuage2"),
-    abcm2: makeNodeComponent("abcm2"),
-    handipharm2: makeNodeComponent("handipharm2"),
-    smala2: makeNodeComponent("smala2"),
-    pharmaconfort2: makeNodeComponent("pharmaconfort2"),
     quatuor: makeNodeComponent("quatuor"),
     titre: makeNodeComponent("titre"),
     persona: makeNodeComponent("persona"),

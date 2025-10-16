@@ -162,22 +162,16 @@
 @media (max-width: 1200px) {
   .plasmic_tokens {
     --token--hnTNNj6hawp: #0000001a;
-    --plasmic-token-basic-overlay-background: var(--token--hnTNNj6hawp);
   }
 }
 
 @media (min-width: 0px) and (max-width: 766px) {
   .plasmic_tokens {
     --token-As0B5uawCa2n: 2rem;
-    --plasmic-token-font-lg: var(--token-As0B5uawCa2n);
     --token-_kt3GTbtgWlp: 25px;
-    --plasmic-token-h-2-mobile: var(--token-_kt3GTbtgWlp);
     --token-epJKF3oZZcPg: 20px;
-    --plasmic-token-h-3-mobile: var(--token-epJKF3oZZcPg);
     --token-c6dspfILe3Zr: 30px;
-    --plasmic-token-h-1-mobile: var(--token-c6dspfILe3Zr);
     --token-ldL6CDkd7BKE: 14px;
-    --plasmic-token-h-5-mobile: var(--token-ldL6CDkd7BKE);
   }
 }
 

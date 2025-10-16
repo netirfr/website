@@ -433,6 +433,7 @@ function PlasmicLandingFreelance__RenderFunc(props: {
                     "buttonButton7",
                     "color"
                   ])}
+                  destination={""}
                   disabled={false}
                   interactionEffect2={
                     <div
@@ -455,6 +456,7 @@ function PlasmicLandingFreelance__RenderFunc(props: {
                       {"Inscription"}
                     </div>
                   }
+                  linkTo={"netir.fr/sign-up"}
                   onColorChange2={async (...eventArgs: any) => {
                     generateStateOnChangeProp($state, [
                       "buttonButton7",
@@ -566,7 +568,7 @@ function PlasmicLandingFreelance__RenderFunc(props: {
                                 sty.text__piuX1
                               )}
                             >
-                              {"Rejoins l'aventure Nettir !"}
+                              {"Rejoins l'aventure Netir !"}
                             </div>
                           }
                           onColorChange2={async (...eventArgs: any) => {
@@ -960,35 +962,35 @@ ton mentor`}
                   />
                 </div>
               </div>
-              <PlasmicImg__
-                alt={""}
-                className={classNames(sty.img__zlBl9)}
-                displayHeight={
-                  hasVariant(globalVariants, "screen", "mobileOnly")
-                    ? "200px"
-                    : "250px"
-                }
-                displayMaxHeight={"none"}
-                displayMaxWidth={"none"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={
-                  hasVariant(globalVariants, "screen", "mobileOnly")
-                    ? "150px"
-                    : hasVariant(globalVariants, "screen", "tabletOnly")
+              <div className={classNames(projectcss.all, sty.freeBox__sTtFw)}>
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__zlBl9)}
+                  displayHeight={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
                       ? "200px"
                       : "250px"
-                }
-                loading={"lazy"}
-                src={{
-                  src: chevre2RemovebgPreviewPngO75IhK4K4VeR,
-                  fullWidth: 427,
-                  fullHeight: 585,
-                  aspectRatio: undefined
-                }}
-              />
+                  }
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"none"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "150px"
+                      : hasVariant(globalVariants, "screen", "tabletOnly")
+                        ? "200px"
+                        : "250px"
+                  }
+                  loading={"lazy"}
+                  src={{
+                    src: chevre2RemovebgPreviewPngO75IhK4K4VeR,
+                    fullWidth: 427,
+                    fullHeight: 585,
+                    aspectRatio: undefined
+                  }}
+                />
 
-              <div className={classNames(projectcss.all, sty.freeBox__sTtFw)}>
                 <h4
                   className={classNames(
                     projectcss.all,

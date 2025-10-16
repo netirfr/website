@@ -2494,19 +2494,6 @@
           "componentType": "component"
         },
         {
-          "id": "zo9N-Lnk8_00",
-          "name": "CardWithBackground2",
-          "type": "managed",
-          "projectId": "oiQgZxfnSVj2maau7x1Bhf",
-          "renderModuleFilePath": "plasmic/netir_fr/PlasmicCardWithBackground2.tsx",
-          "importSpec": {
-            "modulePath": "CardWithBackground2.tsx"
-          },
-          "cssFilePath": "plasmic/netir_fr/PlasmicCardWithBackground2.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
           "id": "MQ3erQnwY6K8",
           "name": "Service",
           "type": "managed",
@@ -2608,6 +2595,19 @@
             "modulePath": "Modele.tsx"
           },
           "cssFilePath": "plasmic/netir_fr/PlasmicModele.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "zo9N-Lnk8_00",
+          "name": "CardWithBackground",
+          "type": "managed",
+          "projectId": "oiQgZxfnSVj2maau7x1Bhf",
+          "renderModuleFilePath": "plasmic/netir_fr/PlasmicCardWithBackground.tsx",
+          "importSpec": {
+            "modulePath": "CardWithBackground.tsx"
+          },
+          "cssFilePath": "plasmic/netir_fr/PlasmicCardWithBackground.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         }
@@ -4799,6 +4799,6 @@
   "gatsbyConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.347",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.347/dist/plasmic.schema.json"
+  "cliVersion": "0.1.348",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.348/dist/plasmic.schema.json"
 }

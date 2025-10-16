@@ -1,7 +1,7 @@
 .root:global(.__wab_instance) {
   background: var(--token-SJG3A5J6b8qj);
   display: flex;
-  cursor: default;
+  cursor: pointer;
   box-sizing: border-box;
   font-family: var(--token-7MuUh4QWacRT);
   font-size: var(--token-zxWRYI7ilEvM);
@@ -169,6 +169,7 @@
   white-space: pre-wrap;
   padding-right: 0px;
   text-align: center;
+  cursor: pointer;
 }
 .freeBox__bc6Cp {
   flex-direction: column;
