@@ -350,6 +350,10 @@
   );
   --mixin-MwRSPbAxImUi_white-space: pre-wrap;
   --plasmic-mixin-home_white-space: var(--mixin-MwRSPbAxImUi_white-space);
+  --mixin-ALN1XmEp0smW_white-space: pre-wrap;
+  --plasmic-mixin-carousel-logo_white-space: var(
+    --mixin-ALN1XmEp0smW_white-space
+  );
 }
 
 :where(.all) {

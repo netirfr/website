@@ -169,6 +169,7 @@ export type PlasmicHomepage__OverridesType = {
   value?: Flex__<"div">;
   titres?: Flex__<"div">;
   h1?: Flex__<"h1">;
+  h4?: Flex__<"h4">;
   buttons2?: Flex__<"div">;
   buttonButton2?: Flex__<typeof ButtonPrimary>;
   interactionEffect2?: Flex__<"div">;
@@ -178,7 +179,7 @@ export type PlasmicHomepage__OverridesType = {
   titre6?: Flex__<"div">;
   carousel?: Flex__<"div">;
   sliderCarousel4?: Flex__<typeof SliderWrapper>;
-  handipharm3?: Flex__<"div">;
+  handipharmLogo?: Flex__<"div">;
   logoBig2?: Flex__<"div">;
   nobullshit2?: Flex__<"div">;
   cosikaLogo2?: Flex__<"div">;
@@ -592,11 +593,13 @@ function PlasmicHomepage__RenderFunc(props: {
                       </React.Fragment>
                     </h3>
                     <h4
+                      data-plasmic-name={"h4"}
+                      data-plasmic-override={overrides.h4}
                       className={classNames(
                         projectcss.all,
                         projectcss.h4,
                         projectcss.__wab_text,
-                        sty.h4__wJvxa
+                        sty.h4
                       )}
                     >
                       {hasVariant(globalVariants, "screen", "mobileOnly")
@@ -871,10 +874,12 @@ function PlasmicHomepage__RenderFunc(props: {
                       $refs["sliderCarousel4"] = ref;
                     },
                     sliderScopeClassName: sty["sliderCarousel4__slider"],
+                    slidesToScroll: 9,
                     speed: hasVariant(globalVariants, "screen", "mobileOnly")
                       ? 2050
-                      : 3000,
+                      : 22000,
                     swipe: false,
+                    touchMove: false,
                     variableWidth: true,
                     vertical: false
                   };
@@ -898,9 +903,12 @@ function PlasmicHomepage__RenderFunc(props: {
                       {...child$Props}
                     >
                       <div
-                        data-plasmic-name={"handipharm3"}
-                        data-plasmic-override={overrides.handipharm3}
-                        className={classNames(projectcss.all, sty.handipharm3)}
+                        data-plasmic-name={"handipharmLogo"}
+                        data-plasmic-override={overrides.handipharmLogo}
+                        className={classNames(
+                          projectcss.all,
+                          sty.handipharmLogo
+                        )}
                       >
                         <PlasmicImg__
                           alt={""}
@@ -917,7 +925,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           displayWidth={
                             hasVariant(globalVariants, "screen", "mobileOnly")
                               ? "100%"
-                              : "100%"
+                              : "200px"
                           }
                           src={{
                             src: handipharmLogoWbKtOhWPwtiz,
@@ -951,7 +959,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           displayWidth={
                             hasVariant(globalVariants, "screen", "mobileOnly")
                               ? "100%"
-                              : "auto"
+                              : "200px"
                           }
                           src={{
                             src: logoBigXZpuT8Kgy8Eh,
@@ -985,7 +993,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           displayWidth={
                             hasVariant(globalVariants, "screen", "mobileOnly")
                               ? "100%"
-                              : "100%"
+                              : "200px"
                           }
                           src={{
                             src: nobullshitXgwL6ARlI0DP,
@@ -1055,7 +1063,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           displayWidth={
                             hasVariant(globalVariants, "screen", "mobileOnly")
                               ? "100%"
-                              : "100%"
+                              : "200px"
                           }
                           src={{
                             src: turaquand6Isdk8MaLFx9,
@@ -1089,7 +1097,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           displayWidth={
                             hasVariant(globalVariants, "screen", "mobileOnly")
                               ? "100%"
-                              : "100%"
+                              : "200px"
                           }
                           src={{
                             src: smala2ZsSz5UizzlDx,
@@ -1123,7 +1131,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           displayWidth={
                             hasVariant(globalVariants, "screen", "mobileOnly")
                               ? "100%"
-                              : "100%"
+                              : "200px"
                           }
                           src={{
                             src: cloudIamPjUgCpGuMml0,
@@ -1160,7 +1168,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           displayWidth={
                             hasVariant(globalVariants, "screen", "mobileOnly")
                               ? "100%"
-                              : "100%"
+                              : "200px"
                           }
                           src={{
                             src: phamaConfort0UPxsoChPv5Y,
@@ -1194,7 +1202,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           displayWidth={
                             hasVariant(globalVariants, "screen", "mobileOnly")
                               ? "100%"
-                              : "100%"
+                              : "200px"
                           }
                           src={{
                             src: campingCar2SNlYfWn9VXr,
@@ -1217,7 +1225,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           displayMaxWidth={"100%"}
                           displayMinHeight={"0"}
                           displayMinWidth={"0"}
-                          displayWidth={"100%"}
+                          displayWidth={"200px"}
                           src={{
                             src: abcmLogoNcQOw4GGoyu,
                             fullWidth: 427,
@@ -1250,7 +1258,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           displayWidth={
                             hasVariant(globalVariants, "screen", "mobileOnly")
                               ? "100%"
-                              : "100%"
+                              : "200px"
                           }
                           src={{
                             src: franceNuageEytvfVu1LwPc,
@@ -1869,32 +1877,10 @@ function PlasmicHomepage__RenderFunc(props: {
                 >
                   {"Une tonne d'avantages"}
                 </h2>
-                <h4
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.h4,
-                    projectcss.__wab_text,
-                    sty.h4__sJt4O
-                  )}
-                >
-                  {
-                    "Chez Netir freelances et mentors grandissent ensemble garantissant des meilleurs r\u00e9sultats pour l'entreprise cliente."
-                  }
-                </h4>
-                <h4
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.h4,
-                    projectcss.__wab_text,
-                    sty.h4__t3Sl
-                  )}
-                >
-                  {"Et ce n'est que le d\u00e9but !"}
-                </h4>
               </div>
               <div className={classNames(projectcss.all, sty.freeBox___9Rq9B)}>
                 <Avantages
-                  avantage={"Des freelances tr\u00e8s qualifi\u00e9s"}
+                  avantage={"Freelances tr\u00e8s qualifi\u00e9s"}
                   className={classNames("__wab_instance", sty.avantages__e53Gv)}
                   mobile={
                     hasVariant(globalVariants, "screen", "mobileOnly")
@@ -1908,7 +1894,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   />
                 </Avantages>
                 <Avantages
-                  avantage={"Commission de seulement 3%"}
+                  avantage={"Commission de 3%"}
                   className={classNames("__wab_instance", sty.avantages__qkOKy)}
                   icon={{
                     src: image11ChRPvgo2AJ,
@@ -1988,7 +1974,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   />
                 </Avantages>
                 <Avantages
-                  avantage={"Protection contre les impay\u00e9s"}
+                  avantage={"Protection impay\u00e9s"}
                   className={classNames("__wab_instance", sty.avantages__ySlNs)}
                   icon={{
                     src: image15TPzCzTy7Vk,
@@ -2028,7 +2014,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   />
                 </Avantages>
                 <Avantages
-                  avantage={"Investir dans des projets \u00e0 impacts"}
+                  avantage={"Projets \u00e0 impacts"}
                   className={classNames("__wab_instance", sty.avantages__l8GtY)}
                   icon={{
                     src: image17WzrgQnjFgwsj,
@@ -2628,6 +2614,7 @@ const PlasmicDescendants = {
     "value",
     "titres",
     "h1",
+    "h4",
     "buttons2",
     "buttonButton2",
     "interactionEffect2",
@@ -2637,7 +2624,7 @@ const PlasmicDescendants = {
     "titre6",
     "carousel",
     "sliderCarousel4",
-    "handipharm3",
+    "handipharmLogo",
     "logoBig2",
     "nobullshit2",
     "cosikaLogo2",
@@ -2694,6 +2681,7 @@ const PlasmicDescendants = {
     "value",
     "titres",
     "h1",
+    "h4",
     "buttons2",
     "buttonButton2",
     "interactionEffect2",
@@ -2703,7 +2691,7 @@ const PlasmicDescendants = {
     "titre6",
     "carousel",
     "sliderCarousel4",
-    "handipharm3",
+    "handipharmLogo",
     "logoBig2",
     "nobullshit2",
     "cosikaLogo2",
@@ -2759,6 +2747,7 @@ const PlasmicDescendants = {
     "value",
     "titres",
     "h1",
+    "h4",
     "buttons2",
     "buttonButton2",
     "interactionEffect2",
@@ -2773,6 +2762,7 @@ const PlasmicDescendants = {
     "value",
     "titres",
     "h1",
+    "h4",
     "buttons2",
     "buttonButton2",
     "interactionEffect2",
@@ -2783,6 +2773,7 @@ const PlasmicDescendants = {
     "value",
     "titres",
     "h1",
+    "h4",
     "buttons2",
     "buttonButton2",
     "interactionEffect2",
@@ -2792,6 +2783,7 @@ const PlasmicDescendants = {
   titres: [
     "titres",
     "h1",
+    "h4",
     "buttons2",
     "buttonButton2",
     "interactionEffect2",
@@ -2799,6 +2791,7 @@ const PlasmicDescendants = {
     "interactionEffect6"
   ],
   h1: ["h1"],
+  h4: ["h4"],
   buttons2: [
     "buttons2",
     "buttonButton2",
@@ -2815,7 +2808,7 @@ const PlasmicDescendants = {
     "titre6",
     "carousel",
     "sliderCarousel4",
-    "handipharm3",
+    "handipharmLogo",
     "logoBig2",
     "nobullshit2",
     "cosikaLogo2",
@@ -2843,7 +2836,7 @@ const PlasmicDescendants = {
   carousel: [
     "carousel",
     "sliderCarousel4",
-    "handipharm3",
+    "handipharmLogo",
     "logoBig2",
     "nobullshit2",
     "cosikaLogo2",
@@ -2858,7 +2851,7 @@ const PlasmicDescendants = {
   ],
   sliderCarousel4: [
     "sliderCarousel4",
-    "handipharm3",
+    "handipharmLogo",
     "logoBig2",
     "nobullshit2",
     "cosikaLogo2",
@@ -2871,7 +2864,7 @@ const PlasmicDescendants = {
     "abcm3",
     "franceNuage2"
   ],
-  handipharm3: ["handipharm3"],
+  handipharmLogo: ["handipharmLogo"],
   logoBig2: ["logoBig2"],
   nobullshit2: ["nobullshit2"],
   cosikaLogo2: ["cosikaLogo2"],
@@ -2953,6 +2946,7 @@ type NodeDefaultElementType = {
   value: "div";
   titres: "div";
   h1: "h1";
+  h4: "h4";
   buttons2: "div";
   buttonButton2: typeof ButtonPrimary;
   interactionEffect2: "div";
@@ -2962,7 +2956,7 @@ type NodeDefaultElementType = {
   titre6: "div";
   carousel: "div";
   sliderCarousel4: typeof SliderWrapper;
-  handipharm3: "div";
+  handipharmLogo: "div";
   logoBig2: "div";
   nobullshit2: "div";
   cosikaLogo2: "div";
@@ -3081,6 +3075,7 @@ export const PlasmicHomepage = Object.assign(
     value: makeNodeComponent("value"),
     titres: makeNodeComponent("titres"),
     h1: makeNodeComponent("h1"),
+    h4: makeNodeComponent("h4"),
     buttons2: makeNodeComponent("buttons2"),
     buttonButton2: makeNodeComponent("buttonButton2"),
     interactionEffect2: makeNodeComponent("interactionEffect2"),
@@ -3090,7 +3085,7 @@ export const PlasmicHomepage = Object.assign(
     titre6: makeNodeComponent("titre6"),
     carousel: makeNodeComponent("carousel"),
     sliderCarousel4: makeNodeComponent("sliderCarousel4"),
-    handipharm3: makeNodeComponent("handipharm3"),
+    handipharmLogo: makeNodeComponent("handipharmLogo"),
     logoBig2: makeNodeComponent("logoBig2"),
     nobullshit2: makeNodeComponent("nobullshit2"),
     cosikaLogo2: makeNodeComponent("cosikaLogo2"),

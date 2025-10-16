@@ -930,8 +930,11 @@
   max-width: 100%;
   top: auto;
   left: auto;
-  background: var(--token-B1dNkv6OuET1);
-  align-content: flex-start;
+  background:
+    url("./images/chevre2RemovebgPreviewPng.png") right 10px bottom 10px / contain no-repeat
+      padding-box border-box local,
+    var(--token-B1dNkv6OuET1);
+  align-content: space-between;
   justify-items: center;
   grid-row-gap: 40px;
   grid-column-start: 1 !important;
@@ -1044,28 +1047,6 @@
 }
 .testimonial__bgXig:global(.__wab_instance) {
   width: 100%;
-}
-.img__wWkYl {
-  object-fit: cover;
-  position: absolute;
-  left: 925px;
-  top: 385px;
-  height: 250px;
-  object-position: 50% 70%;
-  width: 250px;
-  justify-self: flex-start;
-}
-.img__wWkYl > picture > img {
-  object-fit: cover;
-  object-position: 50% 70%;
-}
-@media (max-width: 1200px) {
-  .img__wWkYl {
-    left: 755px;
-    top: -46px;
-    width: 150px;
-    height: 150px;
-  }
 }
 .callToAction2 {
   display: grid;

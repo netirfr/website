@@ -255,6 +255,7 @@ function PlasmicCardWithBackground__RenderFunc(props: {
         displayMinHeight={"0"}
         displayMinWidth={"0"}
         displayWidth={"100%"}
+        height={``}
         loading={"lazy"}
         src={(() => {
           try {
@@ -269,6 +270,7 @@ function PlasmicCardWithBackground__RenderFunc(props: {
             throw e;
           }
         })()}
+        width={"400px"}
       />
 
       {(

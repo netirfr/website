@@ -292,6 +292,7 @@
   object-fit: cover;
   max-width: 100%;
   color: #ffffff;
+  transform: none;
   height: 1em;
 }
 .link___6VgC1 {
