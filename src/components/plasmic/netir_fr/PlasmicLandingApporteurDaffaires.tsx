@@ -93,6 +93,7 @@ import roi15101196PngSvQvFvAzOr from "./images/roi15101196Png.png"; // plasmic-i
 import geminiGeneratedImageRobmisrobmisrobmPngP1FKvt7G1Qiz from "./images/geminiGeneratedImageRobmisrobmisrobmPng.png"; // plasmic-import: P1fKVT7G1Qiz/picture
 import geminiGeneratedImageR5Pi6Mr5Pi6Mr5PiPng6Ni0OmcKfOKo from "./images/geminiGeneratedImageR5Pi6Mr5Pi6Mr5PiPng.png"; // plasmic-import: 6ni0OmcKfOKo/picture
 import geminiGeneratedImageDo8Lcjdo8Lcjdo8LPngNMbgxDyE5Ve from "./images/geminiGeneratedImageDo8Lcjdo8Lcjdo8LPng.png"; // plasmic-import: n-MbgxDyE5VE/picture
+import chevre2RemovebgPreviewPngO75IhK4K4VeR from "./images/chevre2RemovebgPreviewPng.png"; // plasmic-import: O75IhK4K4VeR/picture
 import apporteurRemovebgPreviewPng0TExCjQaEzu0 from "./images/apporteurRemovebgPreviewPng.png"; // plasmic-import: 0tExCjQaEZU0/picture
 import geminiGeneratedImage8R11Yk8R11Yk8R11RemovebgPreviewPngBZ8T737YaQxk from "./images/geminiGeneratedImage8R11Yk8R11Yk8R11RemovebgPreviewPng.png"; // plasmic-import: bZ8t737YaQXK/picture
 import rectangle3463476SmbueWp0Q4WB from "./images/rectangle3463476.png"; // plasmic-import: SmbueWP0Q4wB/picture
@@ -981,6 +982,23 @@ function PlasmicLandingApporteurDaffaires__RenderFunc(props: {
                   starCount={5}
                 />
               </div>
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img__ddtf)}
+                displayHeight={"auto"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"100%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"auto"}
+                loading={"lazy"}
+                src={{
+                  src: chevre2RemovebgPreviewPngO75IhK4K4VeR,
+                  fullWidth: 427,
+                  fullHeight: 585,
+                  aspectRatio: undefined
+                }}
+              />
             </div>
             <div
               data-plasmic-name={"callToAction2"}

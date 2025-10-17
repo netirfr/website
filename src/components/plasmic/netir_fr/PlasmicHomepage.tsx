@@ -850,7 +850,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     slidesToScroll: 9,
                     speed: hasVariant(globalVariants, "screen", "mobileOnly")
                       ? 2050
-                      : 22000,
+                      : 3000,
                     swipe: false,
                     touchMove: false,
                     variableWidth: true,

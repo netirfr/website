@@ -931,7 +931,7 @@
   top: auto;
   left: auto;
   background:
-    url("./images/chevre2RemovebgPreviewPng.png") right 10px bottom 10px / contain no-repeat
+    url("./images/chevre2RemovebgPreviewPng.png") right 10px bottom 10px / contain repeat-y
       padding-box border-box local,
     var(--token-B1dNkv6OuET1);
   align-content: space-between;
@@ -1047,6 +1047,13 @@
 }
 .testimonial__bgXig:global(.__wab_instance) {
   width: 100%;
+}
+.img__ddtf {
+  object-fit: cover;
+  max-width: 100%;
+}
+.img__ddtf > picture > img {
+  object-fit: cover;
 }
 .callToAction2 {
   display: grid;
